@@ -8,17 +8,17 @@
 
     /* Header */
  header{
-    background-color: rgb(236, 240, 19);
+    background-color: rgb(205, 212, 13);
 }
 /* Main Content */
 main{
     background-color: rgb(14, 176, 231);
-/* Make main element take up surplus space to push footer down */  
-flex: 1 0 auto;
+/* Make main element take up surplus space to push footer down */
+flex: 1 0 auto;  
+
 }
 
 /* Footer */
 footer{
     background-color: rgb(219, 12, 115);
-    margin-top: auto;
 }
