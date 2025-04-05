@@ -24,6 +24,8 @@ main{
 /* Make main element take up surplus space to push footer down */
 flex: 1 0 auto;  
 
+/* Celebration image */
+
 }
 
 /* Footer */
