@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 *Astericsk wildcard selector to overide default styles added by the browser */
 *{
     padding: 0;
@@ -13,12 +13,26 @@ body{
     flex-direction: column;
     /*General project styles */
 }
-
+body { 
+font-family: "Emilys Candy", serif;
+letter-spacing: 2px;
+}
 
     /* Header */
  header{
     background-color:rgb(14, 176, 231) 
 }
+/* Navigation */
+.nav-link{
+    font-size: large;
+}
+.navbar-brand{
+    font-weight: bold;
+
+
+  
+}
+
 /* Main Content */
 main{
     background-color: rgb(236, 240, 19);
