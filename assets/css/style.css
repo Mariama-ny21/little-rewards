@@ -14,8 +14,9 @@ body{
     /*General project styles */
 }
 body { 
-font-family: "Emilys Candy", serif;
+font-family: "Livvic", sans-serif;
 letter-spacing: 2px;
+padding-top: 3rem; /* Push the hearder down below the navbar */
 }
 
     /* Header */
