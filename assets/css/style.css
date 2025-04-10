@@ -34,9 +34,6 @@ h3{
 section{
     padding-top: 2rem
 }
-navbar{
-    background-color: rgb(14, 176, 231);
-}
 
 /* Header */
  header{
@@ -79,6 +76,9 @@ navbar{
     padding: 0.5rem;
     margin-bottom: 2rem;
 }
+.logo: {
+    width: 10px;
+}
 
 /* Main Content */
 main{
@@ -94,6 +94,7 @@ flex: 1 0 auto;
 /* Footer */
 footer{
     background-color: rgb(14, 176, 231)
+   
 }
 .social-links{
     display: flex;
