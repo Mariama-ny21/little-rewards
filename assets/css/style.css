@@ -17,7 +17,7 @@ body{
 body { 
 font-family: "Livvic", sans-serif;
 letter-spacing: 2px;
-padding-top: 3rem; /* Push the hearder down below the navbar */
+padding-top: 3rem/* Push the hearder down below the navbar */
 }
 
 h1,
@@ -31,9 +31,12 @@ h3{
 .sub-heading{
     color: rgb(42, 89, 165);
 }
+
 section{
-    padding-top: 2rem
+    /* prevent navbar overlap */
+padding-top: 3rem
 }
+    
 
 /* Header */
  header{
@@ -72,12 +75,13 @@ section{
     font-size: 1.5rem;
 }
 .navbar{
-    background-color: rgb(14, 176, 231);
+    background-color: white !important;
     padding: 0.5rem;
     margin-bottom: 2rem;
 }
 .logo: {
-    width: 10px;
+    width: 5px !important
+    height 5px !important;
 }
 
 /* Main Content */
@@ -93,7 +97,8 @@ flex: 1 0 auto;
 
 /* Footer */
 footer{
-    background-color: rgb(14, 176, 231)
+    background-color: white;
+    
    
 }
 .social-links{
