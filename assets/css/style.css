@@ -28,38 +28,40 @@ h3{
     margin: 2px;   
 }
 
-.sub-heading-color{
-    color: 
+.sub-heading{
+    color: rgb(42, 89, 165);
+}
+section{
+    padding-top: 2rem
+}
+navbar{
+    background-color: rgb(14, 176, 231);
 }
 
 /* Header */
  header{
     background-color:rgb(14, 176, 231) 
 }
-/* Kids and parents buttons */
-#header .kids{
-background-color: gold;
-border: 2px solid;
-padding: 5px;
-margin: 2px;
-color: white;
-}
- 
-#header .parents{
-    background-color: rgb(6, 156, 249);
-    border: 2px solid;
+/* Get started buttons Kids and parents */
+.kids{
     padding: 5px;
-    margin: 2px;
-    color: white;
-}
-/* Header buttons hover effect */
-#header .kids:hover{
-    background-color: rgb(246, 239, 20);
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: white;
 }
 
-#header .parents:hover{
-    background-color: rgb(6, 156, 249);
+.parents{
+    padding-: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Kids and parents buttons hover effect */
+.kid{
+    color: white;
+}
+
+.parents:hover{
     color: white;
 }
 
