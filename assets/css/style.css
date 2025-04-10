@@ -11,27 +11,73 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*General project styles */
 }
+
+ /*General project styles */
 body { 
 font-family: "Livvic", sans-serif;
 letter-spacing: 2px;
 padding-top: 3rem; /* Push the hearder down below the navbar */
 }
 
-    /* Header */
+h1,
+h2,
+h3{ 
+    font-family: "Livvic", sans-serif;
+    color: rgb(42, 89, 165);
+    margin: 2px;   
+}
+
+.sub-heading-color{
+    color: 
+}
+
+/* Header */
  header{
     background-color:rgb(14, 176, 231) 
 }
+/* Kids and parents buttons */
+#header .kids{
+background-color: gold;
+border: 2px solid;
+padding: 5px;
+margin: 2px;
+color: white;
+}
+ 
+#header .parents{
+    background-color: rgb(6, 156, 249);
+    border: 2px solid;
+    padding: 5px;
+    margin: 2px;
+    color: white;
+}
+/* Header buttons hover effect */
+#header .kids:hover{
+    background-color: rgb(246, 239, 20);
+    color: white;
+}
+
+#header .parents:hover{
+    background-color: rgb(6, 156, 249);
+    color: white;
+}
+/* Header buttons active effect */
+
+
 /* Navigation */
 .nav-link{
     font-size: large;
 }
 .navbar-brand{
     font-weight: bold;
-
-
-  
+    Font-color: white;
+    font-size: 1.5rem;
+}
+.navbar{
+    background-color: rgb(14, 176, 231);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
 }
 
 /* Main Content */
@@ -40,19 +86,12 @@ main{
 /* Make main element take up surplus space to push footer down */
 flex: 1 0 auto;  
 
-/* Celebration image */
-
+}
+#about .p{
+    padding: 2px;
 }
 
 /* Footer */
 footer{
     background-color: rgb(14, 176, 231)
-}
-
-/* Potential colours to work with */
-Choice of colours{
-    #2596be - blue
-
-
-
 }
