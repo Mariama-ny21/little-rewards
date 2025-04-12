@@ -132,7 +132,7 @@ body{
     border: 10px solid darkorange;
     padding: 15px;
     margin: 10px;
-    width: 5rem;
+    width: 100%;
     height: 2.5rem;
 }
 .confirmation-message{
@@ -182,4 +182,17 @@ footer{
     margin-top: 1rem;
     font-size: 30px;
     color: darkorange;
+}
+
+
+/* Medium devices: phones (up to 764px) */
+@media screen and (max-width: 764px){
+}
+
+/* Large divices: laptops and larger (992px and up) */
+@media screen and (min-width: 992px){
+}
+/* Large divices: laptops and larger (1200px and up) */
+@media screen and (min-width: 1200px){
+
 }
