@@ -24,12 +24,12 @@ h1,
 h2,
 h3{ 
     font-family: "Livvic", sans-serif;
-    color: rgb(42, 89, 165);
+    color: darkorange;
     margin: 2px;   
 }
 
 .sub-heading{
-    color: rgb(42, 89, 165);
+    color: #8b672e
 }
 
 section{
@@ -40,8 +40,18 @@ padding-top: 3rem
 
 /* Header */
  header{
-    background-color:rgb(14, 176, 231) 
+    color:darkorange;
 }
+header h1, h2{
+    color: darkorange;
+    font-size: 2rem;
+    font-weight: bold;
+}
+header p{
+    color: darkorange !important;
+    font-size: 1.rem;
+}
+
 /* Get started buttons Kids and parents */
 .kids{
     padding: 5px;
@@ -71,18 +81,18 @@ padding-top: 3rem
 }
 .navbar-brand{
     font-weight: bold;
-    Font-color: white;
+    color: darkorange;
     font-size: 1.5rem;
 }
+.navbar-brand:hover{
+    color: gold;
+}
 .navbar{
-    background-color: white !important;
+    background-color: white;
     padding: 0.5rem;
     margin-bottom: 2rem;
 }
-.logo: {
-    width: 5px !important
-    height 5px !important;
-}
+
 
 /* Main Content */
 main{
@@ -91,14 +101,61 @@ main{
 flex: 1 0 auto;  
 
 }
+.btn primary kids{
+    background-color: rgb(255, 255, 0);
+}
 #about .p{
     padding: 2px;
 }
 
+/* task list */
+body{
+.category{
+    color: #8b672e
+}
+.task-button{
+    border: 10px solid darkorange;
+    padding: 15px;
+    margin: 10px;
+    width: 5rem;
+    height: 2.5rem;
+}
+.confirmation-message{
+    text-align: center;
+    margin-left: 20px;
+}
+
+    /* task of the day */
+            margin: 20px;
+            max-width: 800px;
+}
+        .section {
+            border: 2px solid darkorange
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        .tasks {
+            color: #8b672e;
+        }
+        .reward {
+            color:#8b672e;
+        }
+        .tasks ul, .reward ul {
+            list-style: none;
+            padding: 0;
+        }
+        .tasks li, .reward li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+
 /* Footer */
 footer{
     background-color: white;
-    
+
    
 }
 .social-links{
@@ -109,4 +166,5 @@ footer{
     margin-top: 1rem;
     margin-top: 1rem;
     font-size: 30px;
+    color:  #8b672e
 }

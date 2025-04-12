@@ -25,7 +25,7 @@
   <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/images/favicon.ico" alt="Little Rewards logo" class="logo">
+        <img src="assets/images/favicon.ico" alt="Little Rewards logo">
       </a>
       <a class="navbar-brand" href="index.html">Little Rewards</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -43,7 +43,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#tasks and rewards">Tasks</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tasks</a>
           </li>
 
           <li class="nav-item">
@@ -70,8 +74,8 @@
         <p class="lead mb-5">Parents and guardians, let's motivate and celebrate our youngstars with small but
           meaningful rewards!</p>
 
-        <button type="button" class="btn btn-warning kids">Get Started Kids</button>
-        <button type="button" class="btn btn-primary parents">Get Started Parents</button>
+        <button type="button" class="btn btn-primary Kids" href="gallery.html">Get Started Kids</button>
+        <button type="button" class="btn btn-primary parents" href="tasks-rewards.html">Get Started Parents</button>
 
       </div>
       <!-- Celebration image here for now -->
@@ -82,50 +86,36 @@
 
   <!-- main content -->
   <main>
-    <!-- About section links to #about href in navbar -->
-    <section id="about" class="container">
+    <!-- Gallery section starts here -->
+    <section id="gallery" class="container-fluid pb-4">
       <div class="row">
         <!-- my-4 used to add top and bottom margin to heading -->
         <div class="col-12 text-center my-4">
-          <h2 class="display-5">About Little Rewards</h2>
+          <h2 class="display-5" style="color:#8b672e">Little Rewards Gallery</h2>
         </div>
         <!-- mb-4 used to add margin under image -->
-        <div class="col-12 col-md-6 mb-4">
+        <div class="col-12 col-md-6">
+          <div class="card mb-3">
           <!-- img-fluid class makes the image responsive to its container -->
           <img src="assets\images\children-playing-outdoors.png" class="img-fluid" alt="Children playing outdoors">
         </div>
-        <!-- mb-4 used to add margin under text -->
-        <div class="col-12 col-md-6 mb-4">
-          <p>
-            Little Rewards is a Task and Reward website focused on children aged 4 to 10.
-            The website has a selection of tasks and rewards that parent can set for their children
-            and gave them the corresponding rewards when the tasks are completed.
-          </p>
-          <p>
-            By asigning a reward that kids aged 4 to 10 can see on the website, they get excited
-            and motivated in doing the tasks so that they can earn and enjoy their rewards. It allows
-            the kids to be responsible and gives them something to look forward to once tasks are completed.
-          </p>
         </div>
       </div>
     </section>
-
-    <!-- Tasks and Rewards section starts here -->
-    <section id="tasks and rewards" class="container pb-4">
+    <section id="gallery" class="container pb-4">
       <div class="row">
         <!-- my-4 used to add top and bottom margin to heading -->
         <div class="col-12 text-center my-4">
-          <h2 class="display-5">Tasks and Rewards</h2>
+          <h2 class="display-5"></h2>
         </div>
         <div class="col-12 col-md-6">
-          <div class="card mb-3 sharp-corners">
+          <div class="card mb-3">
             <img src="assets\images\classroom scene-1.png" class="card-img-top"
               alt="Kids in a class room looking happy to do school work">
             <div class="card-body">
-              <h3 class="card-title">Kids at School</h3>
+              <h3 class="card-title sub-heading">Kids at School</h3>
               <p class="card-text">The kids are excited to be at school in their best behaviour while learning in a
                 supportive and safe environment.</p>
-              <a href="#task-and-reward" class="btn btn-outline-secondary">Visit Tasks and Rewards</a>
             </div>
           </div>
         </div>
@@ -134,33 +124,50 @@
             <img src="assets\images\home-chore-1.png" class="card-img-top"
               alt="A spa with candles towels and natural material">
             <div class="card-body">
-              <h3 class="card-title">Home Chore</h3>
+              <h3 class="card-title sub-heading">Home Chore</h3>
               <p class="card-text">The kids are motivated to do chore around the home and happy to do homework.</p>
-              <a href="#" class="btn btn-outline-secondary">Visit Tasks and Rewards</a>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <div class="card mb-3 sharp-corners">
+          <div class="card mb-3">
             <img src="assets/images/home-chore-2.png" class="card-img-top" alt="Kids mooping the floor">
             <div class="card-body">
-              <h3 class="card-title">More Home Chore</h3>
+              <h3 class="card-title sub-heading">More Home Chore</h3>
               <p class="card-text">Kids are happily helping out with house work. Parental figures are happy too!</p>
-              <a href="#" class="btn btn-outline-secondary">Visit Tasks and Rewards</a>
-            </div>
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <div class="card mb-3 sharp-corners">
+          <div class="card mb-3">
             <img src="assets\images\kids sharing food.png" class="card-img-top" alt="Kids sharing food with each other">
             <div class="card-body">
-              <h3 class="card-title">Acts of Kindness</h3>
+              <h3 class="card-title sub-heading">Acts of Kindness</h3>
               <p class="card-text">Kids sharing healthy food and laughter with each other, highlighting their love and
                 care for one and other. </p>
-              <a href="#" class="btn btn-outline-secondary">Visit Tasks and Rewards</a>
             </div>
           </div>
         </div>
+        
+        <!-- Tasks for the Day -->
+        <div class="section tasks">
+          <h2>Tasks for Today</h2>
+          <ul>
+              <li>Clean your room</li>
+              <li>Help in the garden</li>
+              <li>Complete your homework</li>
+              <li>Read a book</li>
+          </ul>
+      </div>
+
+      <!-- Reward for the Day -->
+      <div class="section reward">
+          <h2>Reward for Today</h2>
+          <p>Complete all your tasks to earn:</p>
+          <ul>
+              <li>A trip to the park!</li>
+          </ul>
+      </div>
+  </body>
 
         <!-- Contact -->
   </main>
