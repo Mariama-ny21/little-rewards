@@ -91,7 +91,7 @@ header p{
 
 /* Main Content */
 main{
-    background-color: rgb(236, 240, 19);
+
 /* Make main element take up surplus space to push footer down */
 flex: 1 0 auto;  
 
