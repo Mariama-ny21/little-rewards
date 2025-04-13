@@ -29,7 +29,7 @@ h3{
 }
 
 .sub-heading{
-    color: gold;
+    font-size: 1.5rem; 
 }
 
 section{
@@ -50,24 +50,6 @@ header h1, h2{
 header p{
     color: darkorange !important;
     font-size: 1.rem;
-}
-
-/* Get started buttons Kids and parents */
-.kids{
-
-}
-
-.parents{
- 
-}
-
-/* Kids and parents buttons hover effect */
-.kid{
-   
-}
-
-.parents:hover{
-   
 }
 
 /* Navigation */
@@ -96,6 +78,20 @@ main{
 flex: 1 0 auto;  
 
 }
+/* About Us */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 /* Gallery */
 #gallery{
     display: flex;
@@ -124,10 +120,21 @@ flex: 1 0 auto;
 
 
 /* task list */
-body{
-.category{
-    color: #8b672e
+
+#task{
+    padding-top: 5rem; 
 }
+.category{
+    color: #8b672e;
+    padding-left: 30px;
+    font-size: 1.2rem;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .task-button{
     border: 10px solid darkorange;
     padding: 15px;
@@ -140,38 +147,54 @@ body{
     margin-left: 20px;
 }
 
-    /* task of the day */
-            margin: 20px;
-            max-width: 800px;
+/* task of the day */
+.today{
+    font-size: 2.5rem;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    text-align: center;
 }
-        .section {
-            border: 2px solid darkorange
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            background-color: #fff;
-        }
-        .tasks {
-            color: #8b672e;
-        }
-        .reward {
-            color:#8b672e;
-        }
-        .tasks ul, .reward ul {
-            list-style: none;
-            padding: 0;
-        }
-        .tasks li, .reward li {
-            margin: 10px 0;
-            font-weight: bold;
-        }
 
 
-/* Footer */
+.day-tasks {
+    color: #8b672e;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style-type="none";
+}
+.day-reward{
+    color: #8b672e;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style-type="none"
+}
+ .day-reward h3{
+    margin: 10px;
+    padding: 30px;
+    font-size: 2rem;
+ }
+
+/* Reward tier */
+.teir{
+    color: #8b672e;
+    font-size: 1.5r;
+    margin: 10px 0;
+}
+
+.reward-list {
+    color: #8b672e;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+    /* Footer */
 footer{
     background-color: white
 
-   
 }
 .social-links{
     display: flex;

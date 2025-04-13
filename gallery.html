@@ -20,6 +20,43 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/favicon.ico" alt="Little Rewards logo">
+      </a>
+      <a class="navbar-brand" href="index.html">Little Rewards</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="tasks.html">Tasks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rewards.html">Rewards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <!-- main content -->
   <main>
     <!-- Gallery section links to #Gallery href in navbar -->
@@ -44,7 +81,7 @@
         <div class="col-12 text-center my-4">
           <h2 class="display-5"></h2>
         </div>
-        <div class="col-12 col-md-6 images>
+        <div class="col-12 col-md-6 images">
           <div class="card mb-3">
             <img src="assets\images\classroom scene-1.png" class="card-img-top"
               alt="Kids in a class room looking happy to do school work">
@@ -84,12 +121,12 @@
             </div>
           </div>
         </div>
-        <h1>Today's Tasks and Reward of the Day</h1>
+        <h1 class="today">Today's Tasks and Reward</h1>
 
         <!-- Tasks for the Day -->
-        <div class="section tasks">
-            <h2>Tasks for Today</h2>
-            <ul>
+        <div class="day-tasks">
+            <h2><strong>Tasks for Today</strong></h2>
+            <ul list-style-type="none">
                 <li>Clean your room</li>
                 <li>Help in the garden</li>
                 <li>Complete your homework</li>
@@ -98,10 +135,10 @@
         </div>
     
         <!-- Reward for the Day -->
-        <div class="section reward">
+        <div class="day-reward">
             <h2>Reward for Today</h2>
-            <p><strong>Complete all your tasks to earn:</strong></p>
-            <ul>
+            <h3>Complete all your tasks to earn a reward:</h3>
+            <ul list-style-type="none">
                 <li>A trip to the park/cenima!</li>
             </ul>
         </div>
