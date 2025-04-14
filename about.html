@@ -35,11 +35,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link"  href="index.html">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
           </li>
 
           <li class="nav-item">
@@ -82,7 +82,7 @@
             and gave them the corresponding rewards when the tasks are completed.
           </p>
           <p>
-            By asigning a reward that kids aged 4 to 10 can see on the website, they get excited
+            By seeing the potential rewards on the website, kids aged 4 to 10, get excited
             and motivated in doing the tasks so that they can earn and enjoy their rewards. It allows
             the kids to be responsible and gives them something to look forward to once tasks are completed.
           </p>
@@ -90,8 +90,39 @@
           <h3>How Does this Site Works?</h3>
           <p></p>
           <p></p>
-          <p></p>
+          <button type="button" class="btn btn-primary" onclick="window.location.href='tasks.html'">Tasks</button>
           
         </div>
       </div>
     </section>
+    <!-- Bootstrap Javascript Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"></script>
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+      document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+          link.addEventListener("click", function (e) {
+            let section = document.querySelector(e.target.getAttribute("href"));
+            if (section) {
+              e.preventDefault(); // Prevent default anchor click behavior
+              let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+              window.scroll({
+                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                behavior: "smooth",
+              });
+              document
+                .querySelector(".navbar-collapse")
+                .classList.remove("show"); // Collapse navbar
+            }
+          });
+        });
+    </script>
+</body>
+</html>

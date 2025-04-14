@@ -34,8 +34,8 @@ h3{
 
 section{
     /* prevent navbar overlap */
-padding-top: 3rem
-}
+padding-top: 3rem;
+
     
 
 /* Header */
@@ -52,7 +52,7 @@ header p{
     font-size: 1.rem;
 }
 .btn{
-    background-color: darkorange;
+    background-color: darkorange !important;
     color: white;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
@@ -81,7 +81,11 @@ header p{
     padding: 0.5rem;
     margin-bottom: 2rem;
 }
-
+.nav-link .active{
+    color: gold;
+    font-weight: bolder;
+    ;
+}
 
 /* Main Content */
 main{
@@ -131,6 +135,28 @@ flex: 1 0 auto;
     color: darkorange;
 }
 
+/* Log in */
+
+body {
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: darkorange;
+}
+.login-container button:hover {
+    background-color: gold;
+}
 
 /* task list */
 
@@ -192,16 +218,18 @@ body{
  }
 
 /* Reward tier */
-.teir{
+.reward-teir{
     color: #8b672e;
     font-size: 1.5r;
     margin: 10px 0;
+    padding-top: 10px; 
 }
 
-.reward-list {
-    color: #8b672e;
-    font-size: 1.2rem;
-    margin: 10px 0;
+.reward-teir h3{
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 2rem;
+    text-align: center;
 }
 
     /* Footer */
