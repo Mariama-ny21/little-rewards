@@ -161,12 +161,12 @@ body {
 /* task list */
 
 #task{
-    padding-top: 5rem; /* pushes Task down away from the navbar */
+    padding-top: 3rem; /* pushes Task down away from the navbar */
 }
 .category{
     color: #8b672e;
     padding-left: 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
 }
 body{
@@ -193,7 +193,6 @@ body{
     margin-bottom: 30px;
     text-align: center;
 }
-
 
 .day-tasks {
     color: #8b672e;
@@ -226,10 +225,45 @@ body{
 }
 
 .reward-teir h3{
-    margin: 10px;
-    padding-top: 10px;
+    margin: 1rem;
+    padding-top: 30px; /* Pushes the text down away from the the dropdown menu */
     font-size: 2rem;
     text-align: center;
+    color:darkorange;
+}
+.text-center{
+    justify-content: center;
+    padding-top: 3rem;
+    color: darkorange;
+}
+#small-wins{
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    border: 1opx solid darkorange;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#midium-achievements{
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    border: 1opx solid darkorange;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+#big-milestones{
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    border: 1opx solid darkorange;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
 }
 
     /* Footer */
@@ -252,10 +286,19 @@ footer{
     transition: color 0.3s ease;
 }
 
-.social-links a:hover {
+.media-links a:hover {
     color: gold;
 }
-
+.media-links{
+    color: darkorange;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    transition: color 0.3s ease;
+}
+.media-links:hover {
+    color: gold;
+}
 
 /* Medium devices: phones (up to 764px) */
 @media screen and (max-width: 764px){
