@@ -51,6 +51,18 @@ header p{
     color: darkorange !important;
     font-size: 1.rem;
 }
+.btn{
+    background-color: darkorange;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
 
 /* Navigation */
 .nav-link{
@@ -87,6 +99,7 @@ flex: 1 0 auto;
     justify-content: center;
     padding-top: 2rem;
     margin-top: 2rem;
+    font-size: 1.5rem;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -122,7 +135,7 @@ flex: 1 0 auto;
 /* task list */
 
 #task{
-    padding-top: 5rem; 
+    padding-top: 5rem; /* pushes Task down away from the navbar */
 }
 .category{
     color: #8b672e;
@@ -162,7 +175,7 @@ body{
     margin-bottom: 20px;
     font-size: 1.5rem;
     text-align: center;
-    list-style-type="none";
+    list-style-type:"none";
 }
 .day-reward{
     color: #8b672e;
@@ -170,7 +183,7 @@ body{
     margin-bottom: 20px;
     font-size: 1.5rem;
     text-align: center;
-    list-style-type="none"
+    list-style-type:"none";
 }
  .day-reward h3{
     margin: 10px;
@@ -202,9 +215,17 @@ footer{
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
-    margin-top: 1rem;
     font-size: 30px;
+}
+
+.social-links a {
     color: darkorange;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: gold;
 }
 
 
