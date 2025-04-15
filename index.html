@@ -19,7 +19,8 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <!-- stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
+
+  </head>
 
 <body>
   <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
@@ -86,69 +87,83 @@
 
   <!-- main content -->
   <main>
-    <!-- Gallery section starts here -->
     <section id="gallery" class="container-fluid pb-4">
       <div class="row">
-        <!-- my-4 used to add top and bottom margin to heading -->
         <div class="col-12 text-center my-4">
           <h2 class="display-5">Little Rewards Gallery</h2>
         </div>
-        <!-- mb-4 used to add margin under image -->
-        <div class="col-12">
-          <div class="card mb-3 images">
-          <!-- img-fluid class makes the image responsive to its container -->
-          <img src="assets\images\children-playing-outdoors.png" class="img-fluid" alt="Children playing outdoors">
-          <div class="card-body">
-            <h3 class="card-title sub-heading">Children Outdoor</h3>
-            <p class="card-text">Lots of children outdoor having fun on a nice sunny day.</p>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card images">
+            <img src="assets/images/children-playing-outdoors.png" class="img-fluid" alt="Children playing outdoors">
+            <div class="card-body">
+              <h3 class="card-title sub-heading">Children Outdoor</h3>
+              <p class="card-text">Lots of children outdoor having fun on a nice sunny day.</p>
+            </div>
           </div>
         </div>
-        </div>
-      </div>
-        <!-- my-4 used to add top and bottom margin to heading -->
-        <div class="col-12 text-center my-4">
-          <h2 class="display-5"></h2>
-        </div>
-            <div class="col-12">
-              <div class="card mb-3 images">
-            <img src="assets\images\classroom scene-1.png" class="card-img-top"
-              alt="Kids in a class room looking happy to do school work">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card images">
+            <img src="assets/images/classroom scene-1.png" class="card-img-top" alt="Kids in a classroom looking happy to do school work">
             <div class="card-body">
               <h3 class="card-title sub-heading">Kids at School</h3>
-              <p class="card-text">The kids are excited to be at school in their best behaviour while learning in a
-                supportive and safe environment.</p>
+              <p class="card-text">The kids are excited to be at school in their best behaviour while learning in a supportive and safe environment.</p>
             </div>
           </div>
         </div>
-            <div class="col-12">
-              <div class="card mb-3 images">
-            <img src="assets\images\home-chore-1.png" class="card-img-top"
-              alt="A spa with candles towels and natural material">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card images">
+            <img src="assets/images/home-chore-1.png" class="card-img-top" alt="Kids doing home chores">
             <div class="card-body">
               <h3 class="card-title sub-heading">Home Chore</h3>
-              <p class="card-text">The kids are motivated to do chore around the home and happy to do homework.</p>
+              <p class="card-text">The kids are motivated to do chores around the home and happy to do homework.</p>
             </div>
           </div>
         </div>
-            <div class="col-12">
-              <div class="card mb-3 images">
-            <img src="assets/images/home-chore-2.png" class="card-img-top" alt="Kids mooping the floor">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card images">
+            <img src="assets/images/home-chore-2.png" class="card-img-top" alt="Kids mopping the floor">
             <div class="card-body">
               <h3 class="card-title sub-heading">More Home Chore</h3>
-              <p class="card-text">Kids are happily helping out with house work. Parental figures are happy too!</p>
-          </div>
-        </div>
-            <div class="col-12">
-              <div class="card mb-3 images">
-            <img src="assets\images\kids sharing food.png" class="card-img-top" alt="Kids sharing food with each other">
-            <div class="card-body">
-              <h3 class="card-title sub-heading">Acts of Kindness</h3>
-              <p class="card-text">Kids sharing healthy food and laughter with each other, highlighting their love and
-                care for one and other. </p>
+              <p class="card-text">Kids are happily helping out with housework. Parental figures are happy too!</p>
             </div>
           </div>
         </div>
-      </section>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card images">
+            <img src="assets/images/kids sharing food.png" class="card-img-top" alt="Kids sharing food with each other">
+            <div class="card-body">
+              <h3 class="card-title sub-heading">Acts of Kindness</h3>
+              <p class="card-text">Kids sharing healthy food and laughter with each other, highlighting their love and care for one another.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h1 class="today text-center">Today's Tasks and Reward</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2><strong>Tasks for Today</strong></h2>
+          <ul class="list-unstyled">
+            <li>Clean your room</li>
+            <li>Help in the garden</li>
+            <li>Complete your homework</li>
+            <li>Read a book</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h2>Reward for Today</h2>
+          <h3>Complete all your tasks to earn a reward:</h3>
+          <ul class="list-unstyled">
+            <li>A trip to the park!</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <main>
+  
         <!-- Tasks for the Day -->
         <h1 class="today">Today's Tasks and Reward</h1>
         <!-- Tasks for the Day -->
