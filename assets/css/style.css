@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Macondo&display=swap');
 *Astericsk wildcard selector to overide default styles added by the browser */
 *{
     padding: 0;
     margin: 0;
+    top: 0;
     box-sizing: border-box;
     }
 
@@ -11,34 +13,47 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
-    
-}
-p{
-    color: #8b672e;
-}
-h3 .sub-heading{
-    color:#8b672e
+    background-color: white;
+    margin-left: 100px; /*  */
+    margin-right: 100px; /*  */ 
 }
 
  /*General project styles */
 body { 
-font-family: "Livvic", sans-serif;
+font-family: "Macondo", cursive;
 letter-spacing: 2px;
-padding-top: 3rem/* Push the hearder down below the navbar */
+padding-top: 1.5rem/* Push the hearder down below the navbar */
 }
-
 h1,
 h2,
 h3
 { 
-    font-family: "Livvic", sans-serif;
+    font-family: "Macondo", cursive;
+    font-weight: bold;
     color: darkorange;
     margin: 2px;   
 }
 
+p{
+    font-family: "Livvic", sans-serif;
+    color: #0073FF;
+    font-size: 1.2rem;
+    margin: 2px; 
+    font-family: "Livvic", sans-serif;
+}
+li{
+    list-style-type: none; /* Remove default bullet points from lists */
+    margin: 0.5rem 0; /* Add some space between list items */
+    padding: 0.1rem; /* Add some padding to list items */
+    color: #0073FF;
+    font-size: 1.2rem;
+    font-family: "Livvic", sans-serif;
+}
 .sub-heading{
-    font-size: 1.5rem; 
+    font-size:larger; 
+    font-family: "Livvic", sans-serif;
+    color: #0073FF;
+    font-weight: bold;
 }
 
 section{
@@ -56,10 +71,7 @@ header h1, h2{
     font-size: 2rem;
     font-weight: bold;
 }
-header p{
-    color: darkorange !important;
-    font-size: 1.rem;
-}
+
 .btn{
     background-color: darkorange !important;
     color: white;
@@ -75,37 +87,57 @@ header p{
 
 /* Navigation */
 .nav-link{
-    font-size: large; 
+    font-size: larger; 
+    font-family: Mocondo, cursive;
+    color: gold;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: darkorange !important;
+    font-size: xx-large;
 }
 .nav-links active:{
-    font-weight: bold;
+    font-weight:bolder; /* Little Reward brand */
 }
+/* Little Reward brand */
 .navbar-brand{
-    font-weight: bold;
-    color: darkorange !important;
+    font-weight: bolder;
+    color: darkorange;
     font-size: 1.5rem;
 }
 .navbar-brand:hover{
     color: gold !important;
+    font-size:xx-large;
 }
 .navbar{
     background-color: white;
     padding: 0.5rem;
     margin-bottom: 2rem;
 }
-.nav-link .active{
-    color: gold;
-    font-weight: bolder;
-    ;
-}
 
 /* Main Content */
 main{
 
-/* Make main element take up surplus space to push footer down */
+/* Main element take up surplus space to push footer down */
 flex: 1 0 auto;  
 
 }
+card-body h3{
+        font-size:larger; 
+        color: darkorange;
+        font-weight: bold;
+    }
+.card{
+    height: 98%;
+    width: 98%;
+
+}
+
+    photo-title{
+        font-size:larger; 
+        color: darkorange;
+        font-weight: bold;
+    }
 /* About Us */
 
 #about{
@@ -118,41 +150,19 @@ flex: 1 0 auto;
     margin-top: 1rem;
     font-size: 2rem;
     background-color: #f9f9f9;
+    color: #0073FF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-spacing:  ;
+}
+.img-fluid{
+    max-width: 100%;
+    height: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 
-/* Gallery */
-#gallery{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 1rem;
-    color:#8b672e
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-
-#gallery img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.3s;
-}
-#gallery p{
-    text-align: center;
-    font-size: 1.2rem;
-    color:  #8b672e;
-}
-#gallery h3{
-    text-align: center;
-    font-size: 2rem;
-    color: darkorange;
-}
 
 /* task list */
 
@@ -160,23 +170,11 @@ body{
     padding-top: 2rem; /* pushes Task down away from the navbar */
 }
 .category{
-    color: #8b672e;
-    padding-left: 30px;
+    color: #0073FF;
     font-size: 1rem;
-
-}
-body{
-    margin: 0;
-    padding: 0;
+    font-size: large;
 }
 
-.task-button{
-    border: 10px solid darkorange;
-    padding: 15px;
-    margin: 10px;
-    width: 100%;
-    height: 2.5rem;
-}
 .confirmation-message{
     text-align: center;
     margin-left: 20px;
@@ -185,26 +183,28 @@ body{
 /* task of the day */
 .today{
     font-size: 2.5rem;
-    padding-left: 50px;
     margin-bottom: 30px;
     text-align: center;
+    padding-top: 2rem;
 }
 
 .day-tasks {
-    color: #8b672e;
+    color: #0073FF;
     padding: 30px;
     margin-bottom: 20px;
     font-size: 1.5rem;
     text-align: center;
     list-style-type:"none";
+    justify-content: center;
 }
 .day-reward{
-    color: #8b672e;
+    color: #0073FF;
     padding: 30px;
     margin-bottom: 20px;
     font-size: 1.5rem;
     text-align: center;
     list-style-type:"none";
+    justify-content: center;
 }
  .day-reward h3{
     margin: 10px;
@@ -214,15 +214,15 @@ body{
 
 /* Reward tier */
 .reward-teir{
-    color: #8b672e;
+    color: #0073FF;
     font-size: 1.5r;
-    margin: 10px 0;
-    padding-top: 10px; 
+    margin: 50px 0;
+    justify-content: center;
 }
 
 .reward-teir h3{
     margin: 1rem;
-    padding-top: 30px; /* Pushes the text down away from the the dropdown menu */
+    padding-top: 20px; /* Pushes the text down away from the the dropdown menu */
     font-size: 2rem;
     text-align: center;
     color:darkorange;
@@ -237,18 +237,16 @@ body{
     padding: 10px;
     margin: 10px;
     font-size: medium;
-    border: 1opx solid darkorange;
-    border-radius: 10px;
-    background-color: #f9f9f9;
+    border: 2px solid darkorange;
+    border-radius: 2px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 #midium-wins{
     padding: 10px;
     margin: 10px;
     font-size: medium;
-    border: 1opx solid darkorange;
-    border-radius: 10px;
-    background-color: #f9f9f9;
+    border: 2px solid darkorange;
+    border-radius: 2px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
@@ -256,13 +254,14 @@ body{
     padding: 10px;
     margin: 10px;
     font-size: medium;
-    border: 1opx solid darkorange;
-    border-radius: 10px;
-    background-color: #f9f9f9;
+    border: 2px solid darkorange;
+    border-radius: 2px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
-
+.modal-body{
+    color:#0073FF
+}
     /* Footer */
 footer{
     background-color: white
@@ -280,20 +279,12 @@ footer{
 .social-links a {
     color: darkorange;
     text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.media-links a:hover {
-    color: gold;
-}
-.media-links{
-    color: darkorange;
-    text-decoration: none;
     font-size: 1.2rem;
     margin-top: 1rem;
     transition: color 0.3s ease;
 }
-.media-links:hover {
+
+.social-links a:hover {
     color: gold;
 }
 
@@ -303,8 +294,14 @@ footer{
 
 /* Large divices: laptops and larger (992px and up) */
 @media screen and (min-width: 992px){
-}
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
+
 /* Large divices: laptops and larger (1200px and up) */
 @media screen and (min-width: 1200px){
-
-}
+    }
