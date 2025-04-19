@@ -58,8 +58,37 @@
   </nav>
 
   <main>
-  <!-- FAQ section go here-->
-<section id="faq" class="container">
+
+<section id="feedback" class="container my-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="display-5">Feedback</h1>
+      <p>We value your feedback! Please fill out the form below.</p>
+    </div>
+    <div class="col-md-8 offset-md-2">
+      <form id="feedbackForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your feedback" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div id="thankYouMessage" class="alert alert-success mt-3" style="display: none;">
+        Thank you for your feedback!
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- FAQ section -->
+ <section id="faq" class="container">
   <div class="row">
     <div class="col-12 text-center my-4">
     <h2 class="display-5">Frequently Asked Questions</h2>
@@ -78,13 +107,25 @@
     </div>
   </div>
 </section>
+
+
+<script>
+  document.getElementById("feedbackForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent form submission
+    document.getElementById("thankYouMessage").style.display = "block"; // Show thank you message
+    this.reset(); // Reset the form
+  });
+</script>
+
+
+
 </main>
 <!-- Footer -->
 <footer>
-  <!-- Footer / Contact section-->
+  <!-- Footer / Contact -->
   <!-- mt-auto added to push footer to the bottom of the page -->
   <footer id="contact" class="mt-auto text-center">
-    <div class="container section">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h2 class="display-6">Contact</h2>

@@ -64,14 +64,14 @@
     <div class="category mb-4">
       <h2 class="text-center">Home Chores</h2>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-12 col-md-6 mb-4">
           <label><input type="checkbox" name="tasks"> Clean and tidy the bedroom or sitting room</label><br>
           <label><input type="checkbox" name="tasks"> Washing dishes</label><br>
           <label><input type="checkbox" name="tasks"> Loading/unloading the dishwasher</label><br>
           <label><input type="checkbox" name="tasks"> Sweeping</label><br>
           <label><input type="checkbox" name="tasks"> Dusting</label><br>
         </div>
-        <div class="col-md-6">
+        <div class="col-12 col-md-6 mb-4">
           <label><input type="checkbox" name="tasks"> Hoovering</label><br>
           <label><input type="checkbox" name="tasks"> Mopping floors</label><br>
           <label><input type="checkbox" name="tasks"> Watering plants</label><br>
@@ -84,14 +84,14 @@
     <div class="category mb-4">
       <h2 class="text-center">School Related Tasks</h2>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-12 col-md-6 mb-4 ">
           <label><input type="checkbox" name="tasks"> Completing homework</label><br>
           <label><input type="checkbox" name="tasks"> Preparing for an upcoming test</label><br>
           <label><input type="checkbox" name="tasks"> Organising school materials</label><br>
           <label><input type="checkbox" name="tasks"> Active participation in class</label><br>
           <label><input type="checkbox" name="tasks"> Reading</label><br>
         </div>
-        <div class="col-md-6">
+        <div class="col-12 col-md-6 mb-4">
           <label><input type="checkbox" name="tasks"> Writing</label><br>
           <label><input type="checkbox" name="tasks"> Completing a project</label><br>
           <label><input type="checkbox" name="tasks"> Helping a classmate</label><br>
@@ -104,14 +104,14 @@
     <div class="category mb-4">
       <h2 class="text-center">Acts of Kindness</h2>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-12 col-md-6 mb-4">
           <label><input type="checkbox" name="tasks"> Helping a friend with homework</label><br>
           <label><input type="checkbox" name="tasks"> Sharing toys or games</label><br>
           <label><input type="checkbox" name="tasks"> Helping a sibling</label><br>
           <label><input type="checkbox" name="tasks"> Volunteering for a community service</label><br>
           <label><input type="checkbox" name="tasks"> Writing a thank you note</label><br>
         </div>
-        <div class="col-md-6">
+        <div class="col-12 col-md-6 mb-4">
           <label><input type="checkbox" name="tasks"> Donating toys or clothes</label><br>
           <label><input type="checkbox" name="tasks"> Helping a neighbour</label><br>
           <label><input type="checkbox" name="tasks"> Being polite and respectful</label><br>
@@ -168,7 +168,7 @@ document
   .querySelectorAll(".navbar-collapse .nav-link")
   .forEach((link) => {
     link.addEventListener("click", function (e) {
-      let section = document.querySelector(e.target.getAttribute("href"));
+  ""    let section = document.querySelector(e.target.getAttribute("href"));
       if (section) {
         e.preventDefault(); // Prevent default anchor click behavior
         let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;

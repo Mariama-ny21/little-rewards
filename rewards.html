@@ -57,13 +57,12 @@
         </div>
     </nav>
     
-    <main style="padding-top: 4rem;">
+    <main>
         <h1 class="text-center reward-tier mt-4 pt-4">Reward Tier</h1>
-        <p>You've done a great job! Now it's time to choose a reward.</p>
-        <p>Select a reward tier a to view its rewards.</p>
+        <p>You've done a great job! Well done! Now it's time to choose a reward. Select a reward tier to view its rewards.</p>
 
         <label for="small-wins">Small Wins</label>
-        <select name="small wins" id="small-wins" style="border-radius: 30px; padding: 10px; width: 150px;">
+        <select name="small wins" id="small-wins">
             <option value="Stickers">Stickers</option>
             <option value="snack">A favourite snack</option>
             <option value="ice cream">Ice cream</option>
@@ -76,7 +75,7 @@
         </select>
 
         <label for="medium-wins">Medium Wins</label>
-        <select name="medium-wins" id="medium-wins" style="border-radius: 30px; padding: 10px; width: 150px;">
+        <select name="medium-wins" id="medium-wins">
             <option value="cinema">Cinema</option>
             <option value="movie">Movie night</option>
             <option value="puzzle">Puzzle</option>
@@ -87,8 +86,8 @@
             <option value="camping">Camping trip</option>
         </select>
 
-        <label for="big milestones">Big Milestones</label>
-        <select name="big milestones" id=" big-milestones" style="border-radius: 30px; padding: 10px; width: 150px;">
+        <label for="big-milestones">Big Milestones</label>
+        <select name="big-milestones" id="big-milestones">
             <option value="seaside">Seaside outing</option>
             <option value="day out">Family day out</option>
             <option value="shopping">Shopping treat</option>
@@ -106,7 +105,7 @@
                     <div class="card h-100">
                         <img src="assets/images/kids-eating-ice-cream.png" class="card-img-top" alt="Kids eating ice cream">
                         <div class="card-body">
-                            <h5 class="card-title">Ice Cream Fun</h5>
+                            <h2 class="card-title">Ice Cream Fun</h2>
                             <p class="card-text">Enjoy a sweet treat with your favorite ice cream flavors!</p>
                         </div>
                     </div>
@@ -115,7 +114,7 @@
                     <div class="card h-100">
                         <img src="assets/images/kids-at-zoo.png" class="card-img-top" alt="Kids at the zoo">
                         <div class="card-body">
-                            <h5 class="card-title">Zoo Adventure</h5>
+                            <h2 class="card-title">Zoo Adventure</h2>
                             <p class="card-text">Explore the wonders of wildlife with a fun trip to the zoo!</p>
                         </div>
                     </div>
@@ -124,31 +123,28 @@
                     <div class="card h-100">
                         <img src="assets/images/kids-at-seaside.png" class="card-img-top" alt="Kids at the seaside">
                         <div class="card-body">
-                            <h5 class="card-title">Seaside Outing</h5>
+                            <h2 class="card-title">Seaside Outing</h2>
                             <p class="card-text">Relax and play by the sea with sandcastles and waves!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        <hr>
 
         <!-- Example of what constitute small wins, medium wins and big milestones!-->
-        <h2>Example of Tasks Corresponding to a Reward Tier</h2>
-        <p>Small Wins: Completing a simple task like cleaning up toys or helping with a small chore.</p>
-        <p>Medium Wins: Finishing a homework assignment or helping with a bigger task.</p>
-        <p>Big Milestones: Completing a series of tasks or achieving a significant goal.</p>
+        <div class="text-center">
+            <h2>Example of Tasks Corresponding to a Reward Tier</h2>
+            <p><strong>Small Wins:</strong> Completing a simple task like cleaning up toys or helping with a small chore.</p>
+            <p><strong>Medium Wins:</strong> Finishing a homework assignment or helping with a bigger task.</p>
+            <p><strong>Big Milestones:</strong> Completing a series of tasks or achieving a significant goal.</p>
+        </div>
 
 
-        <hr>
+        
 
         <!--Modal saying Thank You-->
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type= "button" class="btn btn-primary thank-you" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Thank you for visiting the site
         </button>
         <!-- Modal -->
@@ -160,8 +156,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Reward allocation is key to the Little Rewards program, fostering appreciation and
-                        motivation in children.
+                        Thank you for visiting Little Rewards! We hope you found it helpful and fun.
                         Selecting a reward tier allows kids to pick something they truly enjoy.
                         Message to the Kids: Enjoy your rewards and keep up the great work!
                     </div>

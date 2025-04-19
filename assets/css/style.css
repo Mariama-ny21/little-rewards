@@ -14,15 +14,17 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin-left: 100px; /*  */
-    margin-right: 100px; /*  */ 
+    margin-left: 1rem; 
+    margin-right: 1rem;
+    width: 100%;  
+    
 }
 
  /*General project styles */
 body { 
 font-family: "Macondo", cursive;
 letter-spacing: 2px;
-padding-top: 1.5rem/* Push the hearder down below the navbar */
+padding-top: 2rem/* Push the hearder down below the navbar */
 }
 h1,
 h2,
@@ -56,15 +58,15 @@ li{
     font-weight: bold;
 }
 
-section{
-    /* prevent navbar overlap */
-padding-top: 3rem;
-}
-    
+  .little-rewards{
+        /* prevent navbar overlap */
+padding-top: 2.5rem;
+  }  
 
 /* Header */
  header{
     color:darkorange;
+  
 }
 header h1, h2{
     color: darkorange;
@@ -80,7 +82,6 @@ header h1, h2{
     border-radius: 5px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    border-radius: 10px;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
@@ -110,7 +111,7 @@ header h1, h2{
     font-size:xx-large;
 }
 .navbar{
-    background-color: white;
+    background-color: darkblue!important;
     padding: 0.5rem;
     margin-bottom: 2rem;
 }
@@ -119,27 +120,21 @@ header h1, h2{
 main{
 
 /* Main element take up surplus space to push footer down */
-flex: 1 0 auto;  
-
+flex: 1 0 auto;
+    padding-top: 2rem; /* Pushes the main content down away from the navbar */
+    padding-bottom: 2rem; /* Pushes the main content up away from the footer */
+}
+.card{
+    height: 98%;
+    width: 98%;
 }
 card-body h3{
         font-size:larger; 
         color: darkorange;
         font-weight: bold;
     }
-.card{
-    height: 98%;
-    width: 98%;
 
-}
-
-    photo-title{
-        font-size:larger; 
-        color: darkorange;
-        font-weight: bold;
-    }
 /* About Us */
-
 #about{
     display: flex;
     flex-direction: column;
@@ -162,22 +157,37 @@ card-body h3{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-
-
 /* task list */
-
 #task{
-    padding-top: 2rem; /* pushes Task down away from the navbar */
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem; /* pushes Task down away from the navbar */
+    color: #0073FF;
 }
+
 .category{
     color: #0073FF;
     font-size: 1rem;
     font-size: large;
 }
+.category h3{
+    color: #0073FF;;
+}
 
 .confirmation-message{
     text-align: center;
-    margin-left: 20px;
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+body a {
+    text-align: center;
+    justify-content: center;
+    margin-left: /* Center the link on the page */;
+    font-size: larger;
+}
+ 
+.highlights{
+    padding-top: 0;
 }
 
 /* task of the day */
@@ -185,7 +195,7 @@ card-body h3{
     font-size: 2.5rem;
     margin-bottom: 30px;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 0;
 }
 
 .day-tasks {
@@ -197,7 +207,7 @@ card-body h3{
     list-style-type:"none";
     justify-content: center;
 }
-.day-reward{
+.day-rewards{
     color: #0073FF;
     padding: 30px;
     margin-bottom: 20px;
@@ -212,17 +222,16 @@ card-body h3{
     font-size: 2rem;
  }
 
+ 
 /* Reward tier */
-.reward-teir{
-    color: #0073FF;
+.reward-tier{
+    color: darkorange;
     font-size: 1.5r;
-    margin: 50px 0;
     justify-content: center;
 }
 
-.reward-teir h3{
+.reward-tier h3{
     margin: 1rem;
-    padding-top: 20px; /* Pushes the text down away from the the dropdown menu */
     font-size: 2rem;
     text-align: center;
     color:darkorange;
@@ -233,47 +242,73 @@ card-body h3{
     color: darkorange;
 }
 
+.card-title{
+    font-size:larger; 
+    color: darkorange;
+    font-weight: bold;
+}
+label{
+    font-size:larger; 
+    color: darkorange;
+    font-weight: bold;
+}
 #small-wins{
     padding: 10px;
     margin: 10px;
-    font-size: medium;
-    border: 2px solid darkorange;
-    border-radius: 2px;
+    font-size: larger;
+    border: 2px solid blue;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-#midium-wins{
+#medium-wins{
     padding: 10px;
     margin: 10px;
-    font-size: medium;
-    border: 2px solid darkorange;
-    border-radius: 2px;
+    font-size: larger;
+    border: 2px solid blue;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
 }
 #big-milestones{
     padding: 10px;
     margin: 10px;
-    font-size: medium;
-    border: 2px solid darkorange;
-    border-radius: 2px;
+    font-size: larger;
+    border: 2px solid blue;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
+} 
+
+.thank-you{
+    margin-left: 20rem;
+    
 }
 .modal-body{
     color:#0073FF
 }
-    /* Footer */
+    
+/* Footer */
 footer{
-    background-color: white
-
+    background-color: darkblue;
 }
+#feedback{
+    padding-top: 0;
+    color: #0073FF;
+    font-size: large;
+}
+#contact{
+padding-top: 30px;
+margin-left: 0px;
+margin-right: 0px;
+width: 100%;
+}
+
 .social-links{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .social-links a {
