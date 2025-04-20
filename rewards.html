@@ -28,7 +28,8 @@
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/favicon.ico" alt="Little Rewards logo">
             </a>
-            <a class="navbar-brand" href="index.html"style="color:darkorange"; font-size="x-large";>Little Rewards</a>
+            <a class="navbar-brand" href="index.html" style="color:darkorange" ; font-size="x-large" ;>Little
+                Rewards</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -56,54 +57,57 @@
             </div>
         </div>
     </nav>
-    
+
     <main>
-        <h1 class="text-center reward-tier mt-4 pt-4">Reward Tier</h1>
-        <p>You've done a great job! Well done! Now it's time to choose a reward. Select a reward tier to view its rewards.</p>
+        <section class="label-dropdown">
+            <h1 class="text-center name reward-tier mt-4 pt-4">Reward Tier</h1>
+            <p>You've done a great job! Well done! Now it's time to choose a reward that's suitable for the task. Select
+                a reward tier to view its rewards.</p>
 
-        <label for="small-wins">Small Wins</label>
-        <select name="small wins" id="small-wins">
-            <option value="Stickers">Stickers</option>
-            <option value="snack">A favourite snack</option>
-            <option value="ice cream">Ice cream</option>
-            <option value="screen time">Extra screen time</option>
-            <option value="art pack">New art and craft</option>
-            <option value="toy">Nice toy</option>
-            <option value="book">A new book</option>
-            <option value="park">A trip to the park</option>
-            <imput type="submit" value="Submit">
-        </select>
+            <label for="small-wins">Small Wins</label>
+            <select name="small wins" id="small-wins">
+                <option value="Stickers">Stickers</option>
+                <option value="snack">Snack</option>
+                <option value="ice cream">Ice cream</option>
+                <option value="screen time">Screen time</option>
+                <option value="art pack">Art & Craft</option>
+                <option value="toy">Nice toy</option>
+                <option value="book">New book</option>
+                <option value="park">Park</option>
+                <imput type="submit" value="Submit">
+            </select>
 
-        <label for="medium-wins">Medium Wins</label>
-        <select name="medium-wins" id="medium-wins">
-            <option value="cinema">Cinema</option>
-            <option value="movie">Movie night</option>
-            <option value="puzzle">Puzzle</option>
-            <option value="money">Pocket money</option>
-            <option value="board game">New board game</option>
-            <option value="sports gear">Sports gear</option>
-            <option value="zoo">A trip to the zoo</option>
-            <option value="camping">Camping trip</option>
-        </select>
+            <label for="medium-wins">Medium Wins</label>
+            <select name="medium-wins" id="medium-wins">
+                <option value="cinema">Cinema</option>
+                <option value="movie">Movie night</option>
+                <option value="puzzle">Puzzle</option>
+                <option value="money">Pocket money</option>
+                <option value="board game">Board game</option>
+                <option value="sports gear">Sports gear</option>
+                <option value="zoo">Zoo visit</option>
+                <option value="camping">Camping</option>
+            </select>
 
-        <label for="big-milestones">Big Milestones</label>
-        <select name="big-milestones" id="big-milestones">
-            <option value="seaside">Seaside outing</option>
-            <option value="day out">Family day out</option>
-            <option value="shopping">Shopping treat</option>
-            <option value="aquarium">Trip to the aquarium</option>
-            <option value="museum">Trip to the museum</option>
-            <option value="theatre">Trip to the theatre</option>
-            <option value="theme park">Visit to a theme park</option>
-            <option value="choice">Reward of your choice</option>
-        </select>
+            <label for="big-wins">Big Wins</label>
+            <select name="big-wins" id="big-wins">
+                <option value="seaside">Seaside</option>
+                <option value="day out">Day out</option>
+                <option value="shopping">Shopping</option>
+                <option value="aquarium">Aquarium</option>
+                <option value="museum">Museum</option>
+                <option value="theatre">Theatre</option>
+                <option value="theme park">Theme park</option>
+                <option value="choice">Your choice</option>
+            </select>
+        </section>
 
-        
-        <div class="container mt-5"></div>
+        <div class="container mt-5">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="assets/images/kids-eating-ice-cream.png" class="card-img-top" alt="Kids eating ice cream">
+                        <img src="assets/images/kids-eating-ice-cream.png" class="card-img-top"
+                            alt="Kids eating ice cream">
                         <div class="card-body">
                             <h2 class="card-title">Ice Cream Fun</h2>
                             <p class="card-text">Enjoy a sweet treat with your favorite ice cream flavors!</p>
@@ -132,19 +136,20 @@
         </div>
 
         <!-- Example of what constitute small wins, medium wins and big milestones!-->
-        <div class="text-center">
+        <div class="text-center example">
             <h2>Example of Tasks Corresponding to a Reward Tier</h2>
-            <p><strong>Small Wins:</strong> Completing a simple task like cleaning up toys or helping with a small chore.</p>
+            <p><strong>Small Wins:</strong> Completing a simple task like cleaning up toys or helping with a small
+                chore.</p>
             <p><strong>Medium Wins:</strong> Finishing a homework assignment or helping with a bigger task.</p>
             <p><strong>Big Milestones:</strong> Completing a series of tasks or achieving a significant goal.</p>
         </div>
 
 
-        
+
 
         <!--Modal saying Thank You-->
         <!-- Button trigger modal -->
-        <button type= "button" class="btn btn-primary thank-you" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary thank-you" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Thank you for visiting the site
         </button>
         <!-- Modal -->

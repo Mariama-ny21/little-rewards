@@ -26,16 +26,19 @@ font-family: "Macondo", cursive;
 letter-spacing: 2px;
 padding-top: 2rem/* Push the hearder down below the navbar */
 }
-h1,
+h1{
+    color: darkorange;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Macondo", cursive;
+}
 h2,
 h3
 { 
     font-family: "Macondo", cursive;
-    font-weight: bold;
     color: darkorange;
     margin: 2px;   
 }
-
 p{
     font-family: "Livvic", sans-serif;
     color: #0073FF;
@@ -58,11 +61,6 @@ li{
     font-weight: bold;
 }
 
-  .little-rewards{
-        /* prevent navbar overlap */
-padding-top: 2.5rem;
-  }  
-
 /* Header */
  header{
     color:darkorange;
@@ -73,7 +71,6 @@ header h1, h2{
     font-size: 2rem;
     font-weight: bold;
 }
-
 .btn{
     background-color: darkorange !important;
     color: white;
@@ -118,9 +115,7 @@ header h1, h2{
 
 /* Main Content */
 main{
-
-/* Main element take up surplus space to push footer down */
-flex: 1 0 auto;
+flex: 1 0 auto; /* Main element take up surplus space to push footer down */
     padding-top: 2rem; /* Pushes the main content down away from the navbar */
     padding-bottom: 2rem; /* Pushes the main content up away from the footer */
 }
@@ -128,76 +123,27 @@ flex: 1 0 auto;
     height: 98%;
     width: 98%;
 }
-card-body h3{
-        font-size:larger; 
+.card-body {
+        font-size:x-large; 
         color: darkorange;
-        font-weight: bold;
     }
-
-/* About Us */
-#about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-    margin-top: 1rem;
-    font-size: 2rem;
-    background-color: #f9f9f9;
-    color: #0073FF;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-spacing:  ;
+.name{
+    font-size: 3rem;
+    font-weight: bold;
 }
-.img-fluid{
-    max-width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.little-rewards{
+padding-top: 3.5rem; /* prevent navbar overlap */
+}   
+.lead{
+    font-weight: bold;
 }
-
-/* task list */
-#task{
-    display: flex;
-    flex-direction: column;
-    padding-top: 0.5rem; /* pushes Task down away from the navbar */
-    color: #0073FF;
-}
-
-.category{
-    color: #0073FF;
-    font-size: 1rem;
-    font-size: large;
-}
-.category h3{
-    color: #0073FF;;
-}
-
-.confirmation-message{
-    text-align: center;
-    margin-left: 2rem;
-    padding-top: 2rem;
-}
-body a {
-    text-align: center;
-    justify-content: center;
-    margin-left: /* Center the link on the page */;
-    font-size: larger;
-}
- 
-.highlights{
-    padding-top: 0;
-}
-
-/* task of the day */
+/* Today's tasks and rewards */
 .today{
     font-size: 2.5rem;
     margin-bottom: 30px;
     text-align: center;
     padding-top: 0;
 }
-
 .day-tasks {
     color: #0073FF;
     padding: 30px;
@@ -222,35 +168,67 @@ body a {
     font-size: 2rem;
  }
 
- 
-/* Reward tier */
-.reward-tier{
-    color: darkorange;
-    font-size: 1.5r;
+/* About Us */
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-}
-
-.reward-tier h3{
-    margin: 1rem;
     font-size: 2rem;
-    text-align: center;
-    color:darkorange;
+    background-color: #f9f9f9;
+    color: #0073FF;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-.text-center{
-    justify-content: center;
-    padding-top: 3rem;
-    color: darkorange;
+.about-us{
+    padding-top: 2rem!important; /* Pushes the about us heading down away from the navbar */
+}
+.img-fluid{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.card-title{
-    font-size:larger; 
+/* Tasks */
+.category{
+    font-size: large;
+    color: darkorange;
+}
+.category h2{
+    color: darkorange;
+    font-size: xx-large;
+}
+
+.confirmation-message{
+    text-align: center;
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+body a {
+    justify-content: center;
+    font-size: larger;
+}
+ 
+.highlights{
+    padding-top: 0;
+}
+
+/* Reward tier */
+.reward-tier {
+    justify-content: center;
+    padding-top: 1.5rem!important; /* Pushes the reward tier down away from the navbar */
+    gap: 0.1 rem;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+label{
+    font-size:x-large; 
     color: darkorange;
     font-weight: bold;
 }
-label{
-    font-size:larger; 
-    color: darkorange;
-    font-weight: bold;
+.reward-tier option:hover{ 
+    background-color: blue;
 }
 #small-wins{
     padding: 10px;
@@ -268,15 +246,24 @@ label{
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-#big-milestones{
+#big-wins{
     padding: 10px;
     margin: 10px;
     font-size: larger;
     border: 2px solid blue;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
 } 
+.example{
+    padding: 5px;
+    margin: 15px;
+    margin-left: 6rem;
+    margin-right: 7rem;
+    font-size: larger;
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
 .thank-you{
     margin-left: 20rem;
@@ -319,24 +306,19 @@ width: 100%;
     transition: color 0.3s ease;
 }
 
-.social-links a:hover {
-    color: gold;
-}
-
-/* Medium devices: phones (up to 764px) */
-@media screen and (max-width: 764px){
-}
-
-/* Large divices: laptops and larger (992px and up) */
-@media screen and (min-width: 992px){
-
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
+/* Media Queries */
+/* Medium devices (laptops, 768px and up) */
+@media screen and (min-width: 768px) {
+    .label-dropdown {
+        display: block; /* Align labels beside each dropdowns */
+        padding: 10px;
     }
-
-/* Large divices: laptops and larger (1200px and up) */
+}
+/* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px){
+    .label-dropdown {
+        display: block; /* Align labels beside each dropdowns */
+        justify-content: center; /* Adjust spacing */
+        padding: 10px;
     }
+}
