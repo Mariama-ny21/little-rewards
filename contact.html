@@ -6,22 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Little Rewards</title>
   <!-- Meta tags for search engines -->
-  <content="Little Rewards for children aged 4 to 10. School work, home chores, acts of kindness">
-    <meta name="keywords" content="little rewards, tasks, chores, rewards, kids, children, youngstars, kindness">
+  <meta name="description"
+    content="Little Rewards for children aged 4 to 10. School work, home chores, acts of kindness">
+  <meta name="keywords"
+    content="little rewards, tasks, chores, rewards, kids, children, youngstars, parents, school work, home chores, kindness">
 
-    <!-- Favicon star-filled icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <!-- Bootstrap CSS Link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <!-- Font Awesome-->
-    <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
+  <!-- Favicon star-filled icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- Bootstrap CSS Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <!-- Font Awesome-->
+  <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
 
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -30,7 +32,7 @@
       <a class="navbar-brand" href="index.html">
         <img src="assets/images/favicon.ico" alt="Little Rewards logo">
       </a>
-      <a class="navbar-brand" href="index.html"style="color:darkorange">Little Rewards</a>
+      <a class="navbar-brand" href="index.html" style="color:darkorange">Little Rewards</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,7 +40,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link"  href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
@@ -59,67 +61,74 @@
 
   <main>
 
-<section id="feedback" class="container my-5">
-  <div class="row">
-    <div class="col-12 text-center">
-      <h1 class="display-5">Feedback</h1>
-      <p>We value your feedback! Please fill out the form below.</p>
-    </div>
-    <div class="col-md-8 offset-md-2">
-      <form id="feedbackForm">
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+    <section id="feedback" class="container my-5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="display-5">Feedback</h1>
+          <p>We value your feedback! Please fill out the form below.</p>
         </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+        <div class="col-md-8 offset-md-2">
+          <form id="feedbackForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your feedback"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <div id="thankYouMessage" class="alert alert-success mt-3" style="display: none;">
+            Thank you for your feedback!
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your feedback" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      <div id="thankYouMessage" class="alert alert-success mt-3" style="display: none;">
-        Thank you for your feedback!
       </div>
-    </div>
-  </div>
-</section>
- <!-- FAQ section -->
- <section id="faq" class="container">
-  <div class="row">
-    <div class="col-12 text-center my-4">
-    <h2 class="display-5">Frequently Asked Questions</h2>
-    </div>
-    <div class="col-12">
-    <p>Here are some common questions and answers about the rewards system.</p>
-    <ul>
-      <li><strong>What is Little Rewards?</strong> Little Rewards is a system designed to encourage children aged 4 to 10 to complete tasks and chores through a fun rewards system.</li>
-      <li><strong>How do I sign up?</strong> No need to sign up, just visit our homepage and click the "Get Started" button.</li>
-      <li><strong>Are there any costs involved?</strong> No, Little Rewards is completely free to use.</li>
-      <li><strong>What age group is this system for?</strong> Little Rewards is designed for children aged 4 to 10.</li>
-      <li><strong>How do I assign tasks?</strong> Simply check the boxes next to the tasks you want to assign and make note of the selected tasks.</li>
-      <li><strong>Can I customize the tasks and rewards?</strong> Yes, you can choose from a selection of tasks to suit your child's needs and reward your child with something appropriate.</li>
-      <li><strong>Is there a mobile app available?</strong> Currently, Little Rewards is accessible via our website, but a mobile app may be developed in due course.</li>
-    </ul>
-    </div>
-  </div>
-</section>
+    </section>
+    <!-- FAQ section -->
+    <section id="faq" class="container">
+      <div class="row">
+        <div class="col-12 text-center my-4">
+          <h2 class="display-5">Frequently Asked Questions</h2>
+        </div>
+        <div class="col-12">
+          <p>Here are some common questions and answers about the rewards system.</p>
+          <ul>
+            <li><strong>What is Little Rewards?</strong> Little Rewards is a system designed to encourage children aged
+              4 to 10 to complete tasks and chores through a fun rewards system.</li>
+            <li><strong>How do I sign up?</strong> No need to sign up, just visit our homepage and click the "Get
+              Started" button.</li>
+            <li><strong>Are there any costs involved?</strong> No, Little Rewards is completely free to use.</li>
+            <li><strong>What age group is this system for?</strong> Little Rewards is designed for children aged 4 to
+              10.</li>
+            <li><strong>How do I assign tasks?</strong> Simply check the boxes next to the tasks you want to assign and
+              make note of the selected tasks.</li>
+            <li><strong>Can I customize the tasks and rewards?</strong> Yes, you can choose from a selection of tasks to
+              suit your child's needs and reward your child with something appropriate.</li>
+            <li><strong>Is there a mobile app available?</strong> Currently, Little Rewards is accessible via our
+              website, but a mobile app may be developed in due course.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
 
-<script>
-  document.getElementById("feedbackForm").addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevent form submission
-    document.getElementById("thankYouMessage").style.display = "block"; // Show thank you message
-    this.reset(); // Reset the form
-  });
-</script>
+    <script>
+      document.getElementById("feedbackForm").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent form submission
+        document.getElementById("thankYouMessage").style.display = "block"; // Show thank you message
+        this.reset(); // Reset the form
+      });
+    </script>
 
 
 
-</main>
+  </main>
 
   <!-- Footer / Contact -->
   <!-- mt-auto added to push footer to the bottom of the page -->
@@ -130,22 +139,20 @@
           <h2 class="display-6">Contact</h2>
         </div>
         <div class="social-links my-4">
-          <a href="https://www.youtube.com" target="_blank"
-            aria-label="Visit us on YouTube (opens in a new tab)" rel="noopener"
-            style="font-size: 1.5rem; color: darkorange;">
-            <i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.facebook.com" target="_blank"
-            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"
-            style="font-size: 1.5rem; color: darkorange;">
-            <i class="fa-brands fa-square-facebook"></i></a>
-          <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+          <a href="https://www.youtube.com" target="_blank" aria-label="Visit us on YouTube (opens in a new tab)"
             rel="noopener" style="font-size: 1.5rem; color: darkorange;">
+            <i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
+            rel="noopener" style="font-size: 1.5rem; color: darkorange;">
+            <i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)" rel="noopener"
+            style="font-size: 1.5rem; color: darkorange;">
             <i class="fa-brands fa-x-twitter"></i></a>
         </div>
       </div>
     </div>
-        <p>&copy; 2025 Little Rewards. All rights reserved.</p>
-        <p>Website by [Mariama N Nyodeka]</p>
+    <p>&copy; 2025 Little Rewards. All rights reserved.</p>
+    <p>Website by [Mariama N Nyodeka]</p>
   </footer>
 
 
@@ -179,4 +186,5 @@
       });
   </script>
 </body>
+
 </html>
