@@ -120,9 +120,19 @@ flex: 1 0 auto; /* Main element take up surplus space to push footer down */
     width: 98%;
 }
 .card-body {
-        font-size:x-large; 
-        color: darkorange;
-    }
+    font-size:x-large; 
+    color: darkorange;
+}
+.card-img-top{
+    display: flex;
+    gap: 0 !important;
+    flex-wrap: nowrap;
+    margin-right: 0;
+}
+img {
+    margin: 0;
+    padding: 0;
+}
 .name{
     font-size: 3rem;
     font-weight: bold;
@@ -133,6 +143,17 @@ padding-top: 3.5rem; /* prevent navbar overlap */
 .lead{
     font-weight: bold;
 }
+.encourage{
+    padding: 15px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    font-size: larger;
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 /* Today's tasks and rewards */
 .today{
     font-size: 2.5rem;
@@ -209,6 +230,11 @@ body a {
     padding-top: 0;
 }
 
+.success{
+margin-left: 28rem;
+margin-right: 26rem;
+}
+
 /* Reward tier */
 .reward-tier {
     justify-content: center;
@@ -279,6 +305,7 @@ footer{
     color: #0073FF;
     font-size: large;
 }
+  
 #contact{
 padding-top: 30px;
 margin-left: 0px;
