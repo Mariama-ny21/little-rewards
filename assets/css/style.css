@@ -85,7 +85,7 @@ header h1, h2{
 /* Navigation */
 .nav-link{
     font-size: larger; 
-    font-family: Mocondo, cursive;
+    font-family: Macondo, cursive;
     color: gold;
     font-weight: bold;
 }
@@ -127,11 +127,35 @@ flex: 1 0 auto; /* Main element take up surplus space to push footer down */
     font-size: 3rem;
     font-weight: bold;
 }
+
+/* Hero styling */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.webp') no-repeat center center;
+    background-size: cover;
+    background-position: center top;
+    object-fit: cover;
+    object-position: top;
+    padding: 150px 0; /* Increase top padding to push text down */
+    min-height: 100vh; /* Full viewport height */
+    display: flex; /* Use Flexbox for alignment */
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+.hero-section h1 {
+    color: darkorange
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .little-rewards{
 padding-top: 3.5rem; /* prevent navbar overlap */
 }   
 .lead{
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    color: navy;
 }
 .encourage{
     padding: 15px;
