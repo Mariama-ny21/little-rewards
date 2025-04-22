@@ -123,16 +123,6 @@ flex: 1 0 auto; /* Main element take up surplus space to push footer down */
     font-size:x-large; 
     color: darkorange;
 }
-.card-img-top{
-    display: flex;
-    gap: 0 !important;
-    flex-wrap: nowrap;
-    margin-right: 0;
-}
-img {
-    margin: 0;
-    padding: 0;
-}
 .name{
     font-size: 3rem;
     font-weight: bold;
