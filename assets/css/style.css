@@ -207,6 +207,9 @@ padding-top: 3.5rem; /* prevent navbar overlap */
 }
 
 /* Tasks */
+#task{
+background-color: navy;
+}
 .category{
     font-size: large;
     color: darkorange;
