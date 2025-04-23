@@ -143,8 +143,8 @@ flex: 1 0 auto; /* Main element take up surplus space to push footer down */
     align-items: center; /* Center content horizontally */
 }
 .hero-section h1 {
-    color: darkorange
-    font-size: 5rem;
+    color: navy !important;
+    font-size: 4.5rem;
     margin-bottom: 20px;
     text-align: center;
 }
