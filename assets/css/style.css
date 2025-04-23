@@ -130,7 +130,7 @@ flex: 1 0 auto; /* Main element take up surplus space to push footer down */
 
 /* Hero styling */
 .hero-section {
-    background: url('../images/hero.webp') no-repeat center center;
+    background: linear-gradient(rgba(52, 40, 2, 0.3)), url('../images/hero.webp') no-repeat center center;
     background-size: cover;
     background-position: center top;
     object-fit: cover;
