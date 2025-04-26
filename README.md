@@ -26,3 +26,4 @@ The JavaScript code used to collaps the menu when internal links are clicked was
 ![home page](https://github.com/Mariama-ny21/little-rewards/blob/main/home-page-lighthouse.png?raw=true)
 ![about page](https://github.com/Mariama-ny21/little-rewards/blob/main/about-page-lighthouse.png?raw=true)
 ![task page](https://github.com/Mariama-ny21/little-rewards/blob/main/task-page-lighthouse.png?raw=true)
+![reward page](https://github.com/Mariama-ny21/little-rewards/blob/main/reward-page-lighthouse.png?raw=true)
