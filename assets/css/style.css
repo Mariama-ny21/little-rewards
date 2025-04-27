@@ -83,16 +83,26 @@ header h1, h2{
 }
 
 /* Navigation */
-.nav-link{
-    font-size: larger; 
+.nav-link {
+    font-size: larger;
     font-family: Macondo, cursive;
     color: gold;
     font-weight: bold;
+    text-decoration: none;
 }
-.nav-link:hover{
+/* Maintain color when the link is clicked */
+.nav-link:visited {
+    color: gold !important; /* Ensures visited links stay gold */
+}
+.nav-link:active {
+    color: white !important; /* Change to white when clicked */
+}
+/* Hover effect */
+.nav-link:hover {
     color: darkorange !important;
     font-size: xx-large;
 }
+
 /* Little Reward brand */
 .navbar-brand{
     font-weight: bolder;
@@ -148,15 +158,7 @@ flex: 1 0 auto; /* Main element take up surplus space to push footer down */
     margin-bottom: 20px;
     text-align: center;
 }
-
-.little-rewards{
-padding-top: 3.5rem; /* prevent navbar overlap */
-}   
-.lead{
-    font-weight: bolder;
-    font-size: 1.8rem;
-    color: navy;
-}
+/* Home page */
 .encourage{
     padding: 15px;
     margin-top: 2rem;
@@ -167,8 +169,16 @@ padding-top: 3.5rem; /* prevent navbar overlap */
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+.little-rewards{
+    padding-top: 3.5rem; /* prevent navbar overlap */
+    }   
+    .lead{
+        font-weight: bolder;
+        font-size: 1.8rem;
+        color: navy;
+    }
 
-/* Today's tasks and rewards */
+    /* Today's tasks and rewards */
 .today{
     font-size: 2.5rem;
     margin-bottom: 30px;
@@ -253,46 +263,40 @@ margin-right: 26rem;
 }
 
 /* Reward tier */
-.reward-tier {
+.reward-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    padding-top: 1.5rem!important; /* Pushes the reward tier down away from the navbar */
-    gap: 0.1rem;
-    margin-left: 70px;
-    margin-right: 70px;
 }
-
-label{
-    font-size:x-large; 
+.reward-card {
+    background-color: navy; /* Blue background */
+    color: blue; /* Text color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.reward-card h3 {
+    font-size: 1.5em;
+    font-family: Macondo, cursive;
     color: darkorange;
     font-weight: bold;
 }
-.reward-tier option:hover{ 
-    background-color: blue;
+.reward-card ul {
+    list-style: none;
+    padding: 0;
 }
-#small-wins{
-    padding: 10px;
-    margin: 10px;
-    font-size: larger;
-    border: 2px solid blue;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.reward-card li {
+    font-size: 1.2em;
+    padding: 8px 0;
 }
-#medium-wins{
-    padding: 10px;
-    margin: 10px;
-    font-size: larger;
-    border: 2px solid blue;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.great-job{
+    padding-bottom: 1rem;
+    text-align: center;
 }
-#big-wins{
-    padding: 10px;
-    margin: 10px;
-    font-size: larger;
-    border: 2px solid blue;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-} 
+
 .example{
     padding: 5px;
     margin: 15px;
@@ -306,6 +310,7 @@ label{
 
 .thank-you{
     margin-left: 20rem;
+    color: blue;
     
 }
 .modal-body{
@@ -361,5 +366,11 @@ width: 100%;
         display: block; /* Align labels beside each dropdowns */
         justify-content: center; /* Adjust spacing */
         padding: 10px;
+    }
+}
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+    .reward-card {
+        width: 90%;
     }
 }
