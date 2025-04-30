@@ -353,21 +353,6 @@ width: 100%;
 }
 
 /* Media Queries */
-/* Medium devices (laptops, 768px and up) */
-@media screen and (min-width: 768px) {
-    .label-dropdown {
-        display: block; /* Align labels beside each dropdowns */
-        padding: 10px;
-    }
-}
-/* X-Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px){
-    .label-dropdown {
-        display: block; /* Align labels beside each dropdowns */
-        justify-content: center; /* Adjust spacing */
-        padding: 10px;
-    }
-}
 /* Ensure responsiveness */
 @media (max-width: 768px) {
     .reward-card {
