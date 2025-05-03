@@ -101,6 +101,7 @@ header h1, h2{
 .nav-link:hover {
     color: darkorange !important;
     font-size: xx-large;
+    transition: 0.5s;
 }
 
 /* Little Reward brand */
