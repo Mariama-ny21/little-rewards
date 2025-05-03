@@ -93,6 +93,7 @@ header h1, h2{
 /* Maintain color when the link is clicked */
 .nav-link:visited {
     color: gold !important; /* Ensures visited links stay gold */
+    transition: 0.5s ease-in-out;
 }
 .nav-link:active {
     color: white !important; /* Change to white when clicked */
@@ -109,6 +110,7 @@ header h1, h2{
     font-weight: bolder;
     color: darkorange;
     font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
 }
 .navbar-brand:hover{
     color: gold !important;
@@ -353,6 +355,12 @@ width: 100%;
     font-size: 1.2rem;
     margin-top: 1rem;
     transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.social-links :hover {
+    color: gold;
+    transition: 0.5s ease-in-out;
 }
 
 /* Media Queries */
