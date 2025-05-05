@@ -81,6 +81,10 @@ header h1, h2{
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
+.btn:hover{
+    background-color: goldenrod !important;
+    transition: background-color 0.3s ease;
+}
 
 /* Navigation */
 .nav-link {
