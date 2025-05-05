@@ -62,7 +62,7 @@
   <main>
     <section id="task" class="container my-5">
       <h1 class="text-center mb-4 name">Task Category</h1>
-      <form action="confirmation.html" method="POST">
+      <form id="task-form">
         <!-- Home Chores Section -->
         <div class="category mb-4">
           <h2 class="text-center">Home Chores</h2>
@@ -124,10 +124,18 @@
           </div>
         </div>
         <!-- Submit Button -->
-        <div class="submit-button text-center">
-          <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="container task-button">
+        <button class="btn btn-primary btn-lg" type="button" onclick="window.location.href='rewards.html'">Go to the Rewards
+          page</button>
         </div>
+
       </form>
+      <script>
+        document.getElementById("taskForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Stop the default form submission (which refreshes the page)
+            window.location.href = "rewards.html"; // Redirect to the rewards page
+        });
+    </script>
     </section>
   </main>
 
@@ -162,6 +170,8 @@
 
   <!-- Font Awesome-->
   <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
+
+  
 
   <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
   <script>

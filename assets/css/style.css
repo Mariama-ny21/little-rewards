@@ -71,6 +71,10 @@ header h1, h2{
     font-weight: bold;
 }
 .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Ensures centering without shifting everything */
     background-color: darkorange !important;
     color: white;
     font-size: 1.2rem;
@@ -249,11 +253,6 @@ background-color: navy;
     font-size: xx-large;
 }
 
-.confirmation-message{
-    text-align: center;
-    margin-left: 2rem;
-    padding-top: 2rem;
-}
 body a {
     justify-content: center;
     font-size: larger;
@@ -263,9 +262,9 @@ body a {
     padding-top: 0;
 }
 
-.success{
-margin-left: 28rem;
-margin-right: 26rem;
+.task-button {
+    margin-bottom: 2rem; 
+    padding-bottom: 2rem; /* Pushed the button upwards a little */
 }
 
 /* Reward tier */
@@ -315,7 +314,6 @@ margin-right: 26rem;
 }
 
 .thank-you{
-    margin-left: 20rem;
     color: blue;
     transition: 0.5s ease-in-out;
     
