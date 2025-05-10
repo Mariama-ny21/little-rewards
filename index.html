@@ -194,6 +194,13 @@
         });
       });
     });
+
+    document.querySelectorAll(".change-text-btn").forEach(button => {
+      button.addEventListener("click", function () {
+        this.textContent = "You Clicked Me!";
+        this.style.color = "white"; // Ensures contrast for readability
+      });
+    });
   </script>
 
   <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
