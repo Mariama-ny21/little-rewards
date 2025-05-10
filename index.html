@@ -185,20 +185,12 @@
   <!-- Font Awesome-->
   <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
 
-  <!-- JavaScript code to change button text and color -->
+  <!-- JavaScript code to add an alert message and change button text for event listeners -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       document.querySelectorAll(".change-text-btn").forEach(button => {
         button.addEventListener("click", function () {
           alert("You clicked a button!");
-        });
-      });
-
-      document.querySelectorAll(".change-text-btn").forEach(button => {
-        button.addEventListener("click", function () {
-          this.textContent = "You Clicked Me!";
-          this.style.backgroundColor = "green !important"; // Change button color for effect
-          this.style.color = "white"; // Ensures contrast for readability
         });
       });
     });
