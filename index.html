@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Little Rewards</title>
   <!-- Meta tags for search engines -->
-  <meta name="description"
-    content="Little Rewards program is a task and reward program for children aged 4 to 10.">
+  <meta name="description" content="Little Rewards program is a task and reward program for children aged 4 to 10.">
   <meta name="keywords"
     content="little rewards, tasks, chores, rewards, kids, children, young stars, parents, school work, home chores, act of kindness">
   <meta name="author" content="Mariama Nyakateh Nyodeka">
@@ -58,17 +57,17 @@
     </div>
   </nav>
 
-<!-- Hero Section -->
-<header class="container-fluid hero-section text-center">
-  <div class="container py5">
+  <!-- Hero Section -->
+  <header class="container-fluid hero-section text-center">
+    <div class="container py5">
       <h1 class="display-4">Wellcome to Little Rewards</h1>
-          <p class="lead">Celebrate Every Step One Little Reward at a Time!</p>
-          <div class="text-center">
-              <button class="btn btn-primary btn-lg" type="button"
-                  onclick="window.location.href='about.html'">Get Started</button>
-          </div>
-  </div>
-</header>
+      <p class="lead">Celebrate Every Step One Little Reward at a Time!</p>
+      <div class="text-center">
+        <button class="btn btn-primary btn-lg change-text-btn" type="button"
+          onclick="window.location.href='about.html'">Get Started</button>
+      </div>
+    </div>
+  </header>
 
   <!-- main content -->
   <main>
@@ -119,9 +118,11 @@
         </div>
       </div>
 
-      <p class="encourage"><strong>Parents and guardians</strong>, let's motivate and celebrate our young stars with small but
+      <p class="encourage"><strong>Parents and guardians</strong>, let's motivate and celebrate our young stars with
+        small but
         meaningful rewards! Encouraging kids to take on tasks and allocating appropriate rewards are key to the Little
-        Rewards program, fostering appreciation and motivation in children. See our About page for more detail information about the
+        Rewards program, fostering appreciation and motivation in children. See our About page for more detail
+        information about the
         Little Rewards website. You can also find more information under FAQ on the Contact page.</p>
     </section>
     <section class="container my-5">
@@ -134,7 +135,8 @@
             <li>Complete your homework</li>
             <li>Read a book</li>
           </ul>
-          <button type="button" class="btn btn-primary" onclick="window.location.href='about.html'">Get Started</button>
+          <button type="button" class="btn btn-primary change-text-btn" onclick="window.location.href='about.html'">Get
+            Started</button>
         </div>
         <div class="col-md-6 day-rewards">
           <h3>Rewards for Today</h3>
@@ -182,6 +184,25 @@
 
   <!-- Font Awesome-->
   <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
+
+  <!-- JavaScript code to change button text and color -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".change-text-btn").forEach(button => {
+        button.addEventListener("click", function () {
+          alert("You clicked a button!");
+        });
+      });
+
+      document.querySelectorAll(".change-text-btn").forEach(button => {
+        button.addEventListener("click", function () {
+          this.textContent = "You Clicked Me!";
+          this.style.backgroundColor = "green !important"; // Change button color for effect
+          this.style.color = "white"; // Ensures contrast for readability
+        });
+      });
+    });
+  </script>
 
   <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
   <script>

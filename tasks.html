@@ -131,7 +131,7 @@
 
       </form>
       <script>
-        document.getElementById("taskForm").addEventListener("submit", function(event) {
+        document.getElementById("task").addEventListener("submit", function(event) {
             event.preventDefault(); // Stop the default form submission (which refreshes the page)
             window.location.href = "rewards.html"; // Redirect to the rewards page
         });
@@ -171,15 +171,13 @@
   <!-- Font Awesome-->
   <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
 
-  
-
   <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
   <script>
     document
       .querySelectorAll(".navbar-collapse .nav-link")
       .forEach((link) => {
         link.addEventListener("click", function (e) {
-          ""    let section = document.querySelector(e.target.getAttribute("href"));
+          let section = document.querySelector(e.target.getAttribute("href")); // Removed unnecessary "" before let
           if (section) {
             e.preventDefault(); // Prevent default anchor click behavior
             let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
@@ -193,7 +191,8 @@
           }
         });
       });
-  </script>
+</script>
+
 </body>
 
 </html>

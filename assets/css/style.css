@@ -16,14 +16,9 @@ body{
     margin-left: 1rem; 
     margin-right: 1rem;
     width: 100%;  
-    
-}
-
- /*General project styles */
-body { 
-font-family: "Macondo", cursive;
-letter-spacing: 2px;
-padding-top: 2rem/* Push the hearder down below the navbar */
+    font-family: "Macondo", cursive;
+    letter-spacing: 2px;
+    padding-top: 2rem/* Push the hearder down below the navbar */
 }
 h1{
     color: darkorange;
