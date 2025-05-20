@@ -311,6 +311,7 @@ body a {
 .thank-you{
     color: blue;
     transition: 0.5s ease-in-out;
+    font-size: larger
     
 }
 .modal-body{
@@ -322,10 +323,13 @@ footer{
     background-color: darkblue;
     list-style-type: none;
 }
-#feedback{
+#faq{
+    font-size: larger;
+}
+#contact-us{
     padding-top: 0;
     color: #0073FF;
-    font-size: large;
+    font-size: larger;
 }
   
 #contact{
@@ -333,7 +337,12 @@ padding-top: 30px;
 margin-left: 0px;
 margin-right: 0px;
 width: 100%;
+font-size: larger;
 }
+#contactUsForm{
+font-size: larger;
+}
+
 
 .social-links{
     display: flex;

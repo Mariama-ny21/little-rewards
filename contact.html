@@ -61,15 +61,126 @@
   </nav>
 
   <main>
+    <!-- FAQ section as Accordion -->
+    <section id="faq" class="container">
+      <div class="row">
+      <div class="col-12 text-center my-4">
+        <h2 class="display-5">Frequently Asked Questions</h2>
+      </div>
+      <div class="col-12">
+        <p>Here are some common questions and answers about the rewards system.</p>
+        <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1-heading">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
+            aria-expanded="true" aria-controls="faq1">
+            What is Little Rewards?
+          </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Little Rewards is a system designed to encourage children aged 4 to 10 to complete tasks and chores through a fun rewards system.
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2-heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
+            aria-expanded="false" aria-controls="faq2">
+            How do I sign up?
+          </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            No need to sign up, just visit our homepage, review the information and click the "Get Started" button.
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3-heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3"
+            aria-expanded="false" aria-controls="faq3">
+            Are there any costs involved?
+          </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            No, Little Rewards is completely free to use.
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq4-heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4"
+            aria-expanded="false" aria-controls="faq4">
+            What age group is this system for?
+          </button>
+          </h2>
+          <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Little Rewards is designed for children aged 4 to 10.
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq5-heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5"
+            aria-expanded="false" aria-controls="faq5">
+            How do I assign tasks?
+          </button>
+          </h2>
+          <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Simply check the boxes next to the tasks you want to assign and make note of the selected tasks.
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq6-heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6"
+            aria-expanded="false" aria-controls="faq6">
+            How do I reward my child?
+          </button>
+          </h2>
+          <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-heading"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            You can choose from a variety of rewards available on the rewards page. Match the tasks with the appropriate reward tier.
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq7-heading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7"
+            aria-expanded="false" aria-controls="faq7">
+            Is there a mobile app available?
+          </button>
+          </h2>
+          <div id="faq7" class="accordion-collapse collapse" aria-labelledby="faq7-heading"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Currently, Little Rewards is accessible via our website, but a mobile app may be developed in due course.
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>
 
-    <section id="feedback" class="container my-5">
+    <section id="contact-us" class="container my-5">
       <div class="row">
         <div class="col-12 text-center">
-          <h1 class="display-5">Feedback</h1>
-          <p>We value your feedback! Please fill out the form below.</p>
+          <h1 class="display-5">Contact Us</h1>
+          <p>Contact us by filling out the form below.</p>
         </div>
         <div class="col-md-8 offset-md-2">
-          <form id="feedbackForm">
+          <form id="contactUsForm">
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
@@ -80,56 +191,25 @@
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your feedback"
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message"
                 required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
           <div id="thankYouMessage" class="alert alert-success mt-3" style="display: none;">
-            Thank you for your feedback!
+            Thank you for your message! We will get back to you as soon as possible.
           </div>
         </div>
       </div>
     </section>
-    <!-- FAQ section -->
-    <section id="faq" class="container">
-      <div class="row">
-        <div class="col-12 text-center my-4">
-          <h2 class="display-5">Frequently Asked Questions</h2>
-        </div>
-        <div class="col-12">
-          <p>Here are some common questions and answers about the rewards system.</p>
-          <ul>
-            <li><strong>What is Little Rewards?</strong> Little Rewards is a system designed to encourage children aged
-              4 to 10 to complete tasks and chores through a fun rewards system.</li>
-            <li><strong>How do I sign up?</strong> No need to sign up, just visit our homepage, review the information
-              and click the "Get
-              Started" button.</li>
-            <li><strong>Are there any costs involved?</strong> No, Little Rewards is completely free to use.</li>
-            <li><strong>What age group is this system for?</strong> Little Rewards is designed for children aged 4 to
-              10.</li>
-            <li><strong>How do I assign tasks?</strong> Simply check the boxes next to the tasks you want to assign and
-              make note of the selected tasks.</li>
-            <li><strong>How do I reward my child?</strong> You can choose from a variety of rewards available on the
-              rewards page. Match the tasks with the appropriate reward tier.</li>
-            <li><strong>Is there a mobile app available?</strong> Currently, Little Rewards is accessible via our
-              website, but a mobile app may be developed in due course.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-
 
     <script>
-      document.getElementById("feedbackForm").addEventListener("submit", function (e) {
+      document.getElementById("contactUsForm").addEventListener("submit", function (e) {
         e.preventDefault(); // Prevent form submission
         document.getElementById("thankYouMessage").style.display = "block"; // Show thank you message
         this.reset(); // Reset the form
       });
     </script>
-
-
 
   </main>
 
