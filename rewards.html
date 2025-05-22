@@ -61,55 +61,82 @@
     </nav>
 
     <main>
-            <h1 class="text-center name reward-tier mt-4 pt-4">Reward Tier</h1>
-            <p class="great-job">You've done a great job! Well done! Now it's time to choose a reward that's suitable for the task.</p>
+        <h1 class="text-center name reward-tier mt-4 pt-4">Reward Tier</h1>
+        <p class="great-job">You've done a great job! Well done! Now it's time to choose a reward that's suitable for
+            the task.</p>
 
-                <section class="reward-categories">
-                    <div class="reward-card">
-                        <h3>Small Wins</h3>
-                        <ul>
-                            <li>Stickers</li>
-                            <li>Snack</li>
-                            <li>Ice cream</li>
-                            <li>Screen time</li>
-                            <li>Art & Craft</li>
-                            <li>Nice toy</li>
-                            <li>New book</li>
-                            <li>Park</li>
-                        </ul>
+        <!-- Reward Tiers Carousel -->
+        <div id="rewardCarousel" class="carousel slide my-4" data-bs-ride="carousel" style="border-radius: 1rem;">
+            <div class="carousel-inner">
+                <div class="carousel-item small-wins active">
+                    <div class="carousel-item active">
+                        <img src="assets\images\Rewards caption.webp" class="d-block w-100" alt="Rewards">
+                        <div class="carousel-caption">
+                            <h2 style="color: darkorange;">Welcome to Your Rewards</h2>
+                        </div>
                     </div>
-                
-                    <div class="reward-card">
-                        <h3>Medium Wins</h3>
-                        <ul>
-                            <li>Cinema</li>
-                            <li>Movie night</li>
-                            <li>Puzzle</li>
-                            <li>Pocket money</li>
-                            <li>Board game</li>
-                            <li>Sports gear</li>
-                            <li>Day out</li>
-                            <li>Camping</li>
-                        </ul>
-                    </div>
-                
-                    <div class="reward-card">
-                        <h3>Big Wins</h3>
-                        <ul>
-                            <li>Seaside</li>
-                            <li>Zoo</li>
-                            <li>Shopping</li>
-                            <li>Aquarium</li>
-                            <li>Museum</li>
-                            <li>Theatre</li>
-                            <li>Theme park</li>
-                            <li>Reward of your choice</li>
-                        </ul>
-                    </div>
-                </section>
 
-         <!-- Example of what constitute small wins, medium wins and big milestones!-->
-         <div class="text-center example">
+                    <div class="d-flex flex-column align-items-center py-4"
+                        style="background-color: black; border-radius: 1rem;">
+                        <h3 style="color: #D2691E;">Small Wins</h3>
+                        <ul>
+                            <li>✔ Stickers</li>
+                            <li>✔ Snack</li>
+                            <li>✔ Ice cream</li>
+                            <li>✔ Screen time</li>
+                            <li>✔ Art & Craft</li>
+                            <li>✔ Nice toy</li>
+                            <li>✔ New book</li>
+                            <li>✔ Park</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel-item medium-wins">
+                    <div class="d-flex flex-column align-items-center py-4"
+                        style="background-color: black; border-radius: 1rem;">
+                        <h3 style="color: #D2691E;">Medium Wins</h3>
+                        <ul>
+                            <li>✔ Cinema</li>
+                            <li>✔ Movie night</li>
+                            <li>✔ Puzzle</li>
+                            <li>✔ Pocket money</li>
+                            <li>✔ Board game</li>
+                            <li>✔ Sports gear</li>
+                            <li>✔ Day out</li>
+                            <li>✔ Camping</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel-item big-wins">
+                    <div class="d-flex flex-column align-items-center py-4"
+                        style="background-color:black; border-radius: 1rem;">
+                        <h3 style="color: darkorange;">Big Wins</h3>
+                        <ul>
+                            <li>✔ Seaside</li>
+                            <li>✔ Zoo</li>
+                            <li>✔ Shopping</li>
+                            <li>✔ Aquarium</li>
+                            <li>✔ Museum</li>
+                            <li>✔ Theatre</li>
+                            <li>✔ Theme park</li>
+                            <li>✔ Reward of your choice</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Functional carousel arrows -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#rewardCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#rewardCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Example of what constitute small wins, medium wins and big milestones!-->
+        <div class="text-center example">
             <h2>Example of Tasks Corresponding to a Reward Tier</h2>
             <p><strong>Small Wins:</strong> Completing a simple task like cleaning up toys or helping with a small
                 chore.</p>
@@ -210,7 +237,7 @@
     <!-- Font Awesome-->
     <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
 
-    
+
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
     <script>
         document

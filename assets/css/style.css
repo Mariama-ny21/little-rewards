@@ -262,6 +262,7 @@ body a {
     padding-bottom: 2rem; /* Pushed the button upwards a little */
 }
 
+
 /* Reward tier */
 .reward-categories {
     display: flex;
@@ -269,29 +270,46 @@ body a {
     gap: 20px;
     justify-content: center;
 }
-.reward-card {
-    background-color: navy; /* Blue background */
-    color: blue; /* Text color */
+
+/* Carousel styling */
+.reward-carousel {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+/* Individual reward items */
+.reward-item {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: black; /* Consistent background across tiers */
 }
-.reward-card h3 {
+
+/* Headings with dark orange color */
+.reward-item h3 {
     font-size: 1.5em;
     font-family: Macondo, cursive;
     color: darkorange;
     font-weight: bold;
 }
-.reward-card ul {
+
+/* List styles */
+.reward-item ul {
     list-style: none;
     padding: 0;
 }
-.reward-card li {
+
+.reward-item li {
     font-size: 1.2em;
     padding: 8px 0;
+    color: white !important; /* White text color for better visibility */
 }
+
+li {
+    color: white !important;
+}
+
+
 .great-job{
     padding-bottom: 1rem;
     text-align: center;
