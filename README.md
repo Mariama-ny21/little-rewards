@@ -31,22 +31,21 @@ The deployed website can be viewed at: https://mariama-ny21.github.io/little-rew
 
 ## Testing
 One of the main problem faced when building Little Rewards was that the hero-section image on the home page was not showing in my workspace. Interestingly, it was always showing up in the web browser. I was however determined to fix the issue. After a good number of attempts in debugging, a solution was finally found after validating my CSS code. The issue was that the background: linear-gradient had one colour instead of two. Once both colours were present, the image in the hero-section showed up in my workspace. Problem solved! 
-
-## Lighthouse Report Screenshots 
-![home page](https://github.com/Mariama-ny21/little-rewards/blob/main/home-page-lighthouse.png?raw=true)
-![about page](https://github.com/Mariama-ny21/little-rewards/blob/main/about-page-lighthouse.png?raw=true)
-![tasks page](https://github.com/Mariama-ny21/little-rewards/blob/main/task-page-lighthouse.png?raw=true)
-![rewards page](https://github.com/Mariama-ny21/little-rewards/blob/main/reward-page-lighthouse.png?raw=true)
-![contact page](https://github.com/Mariama-ny21/little-rewards/blob/main/contact-page-lighthouse.png?raw=true)
+ 
+## Lighthouse Report Screenshots
+![Local Image](assets\images\Screenshots\home-page-lighthouse.png) 
+![Local Image](assets\images\Screenshots\about-page-lighthouse.png)
+![Local Image](assets\images\Screenshots\reward-page-lighthouse.png)
+![Local Image](assets\images\Screenshots\task-page-lighthouse.png)
+![Local Image](assets\images\Screenshots\contact-page-lighthouse.png)
 
 ## W3C HTML Validator Screenshots
-![home page](https://github.com/Mariama-ny21/little-rewards/blob/main/html-validator_home.png?raw=true)
-![about page](https://github.com/Mariama-ny21/little-rewards/blob/main/html-validator_about.png?raw=true)
-![tasks page](https://github.com/Mariama-ny21/little-rewards/blob/main/html-validator_tasks.png?raw=true)
-![rewards page](https://github.com/Mariama-ny21/little-rewards/blob/main/html-validator_rewards.png?raw=true)
-![contact page](https://github.com/Mariama-ny21/little-rewards/blob/main/html-validator_contact.png?raw=true)
+![Local Image](assets\images\Screenshots\html-validator_home.png)
+![Local Image](assets\images\Screenshots\html-validator_about.png)
+![Local Image](assets\images\Screenshots\html-validator_rewards.png)
+![Local Image](assets\images\Screenshots\html-validator_tasks.png)
+![Local Image](assets\images\Screenshots\html-validator_contact.png)
 
 ## Jigsaw W3C CSS Validator Screenshot
-![style.css](https://github.com/Mariama-ny21/little-rewards/blob/main/jigsaw-css-validator_style.css.png?raw=true) 
-
-
+![Local Image](assets\images\Screenshots\jigsaw-css-validator_style.css.png)
+![Local Image] 
