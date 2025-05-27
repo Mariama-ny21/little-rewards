@@ -305,10 +305,12 @@ body a {
 
 /* Headings with dark orange color */
 .reward-item h3 {
-  font-size: 1.5em;
+  font-size: 2rem !important;
   font-family: Macondo, cursive;
   color: darkorange;
   font-weight: bold;
+  justify-content: center !important;
+  text-align: center !important;
 }
 
 /* List styles */
@@ -344,7 +346,7 @@ li {
 .thank-you {
   color: blue;
   transition: 0.5s ease-in-out;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 #exampleModalLabel {
   font-size: 3rem;
@@ -356,29 +358,44 @@ li {
   color: #0073ff;
 }
 
+/* Contact US */
+#faq {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+#faq p {
+  padding-bottom: 2rem! important;
+    font-size: 1.3rem!important;
+}
+.accordion-button{
+font-size: 1.3rem;
+color: black;
+}
+
+.accordion-body {
+  font-size: 1.3rem !important;
+  color: #0073ff;
+}
+
+#contact-us p {
+  padding-top: 0;
+  color: #0073ff;
+  font-size: 1.3rem;
+}
+
+.form-control {
+    font-size: 1.3rem; /* increases font-size */
+    padding: 0.5rem; /* Adds some breathing space */
+}
+.form-label {
+  font-size: 1.3rem; /* Increases label font size */
+  color: #0073ff; /* Ensures label color is consistent */
+}
+
 /* Footer */
 footer {
   background-color: darkblue;
   list-style-type: none;
-}
-#faq {
-  font-size: larger;
-}
-#contact-us {
-  padding-top: 0;
-  color: #0073ff;
-  font-size: larger;
-}
-
-#contact {
-  padding-top: 30px;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
-  font-size: larger;
-}
-#contactUsForm {
-  font-size: larger;
 }
 
 .social-links {
