@@ -62,10 +62,13 @@ About Page
 - A medium blue background colour added to the About page which gives it a fresher look and the text are clearly visible
 
 Rewards Page
-The Rewards page was redesigned and the major changes includes the removal of the cards and the addition of a Bootstrap carousel. The Example section was also restyled using a check list. The Thank You modal message was also updated.
+- The Rewards page was redesigned and the major changes includes the removal of the cards and the addition of a Bootstrap carousel
+- The Example section was also restyled using a check list
+- The Thank You modal message was also updated
 
 Contact Page
-The Contact Page redesigned by using Accordion for the FAQ and changing the Feedback form to Contact Us form. CSS style was also updated for the Contact page.
+- The Contact page redesigned by using Accordion for the FAQ and changing the Feedback form to Contact Us form
+- CSS style was also updated for the Contact page
 
 ## Credits
 - All images on the website are AI-generated, contributing to the vibrant and engaging visual experience of the program. 
