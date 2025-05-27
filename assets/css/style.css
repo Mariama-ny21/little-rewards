@@ -195,11 +195,11 @@ main {
   text-align: center;
 }
 .parents-list {
-    list-style: disc; /* Ensures bullet points only for this section */
-    padding-left: 20px; /* Adds spacing for better alignment */
-    padding-top: 2rem !important; /* Adds spacing from the top */
-    display: block !important;
-    visibility: visible !important;
+  list-style: disc; /* Ensures bullet points only for this section */
+  padding-left: 20px; /* Adds spacing for better alignment */
+  padding-top: 2rem !important; /* Adds spacing from the top */
+  display: block !important;
+  visibility: visible !important;
 }
 
 /* Today's tasks and rewards */
@@ -283,18 +283,16 @@ body a {
 }
 
 /* Reward tier */
-.reward-categories {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+/* Carousel styling */
+#rewardCarousel {
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
 }
 
-/* Carousel styling */
-.reward-carousel {
-  border-radius: 1rem;
-  overflow: hidden;
-}
 
 /* Individual reward items */
 .reward-item {
@@ -302,6 +300,7 @@ body a {
   border-radius: 10px;
   text-align: center;
   background-color: black; /* Consistent background across tiers */
+  margin: 0 auto; /* Centers the reward item */
 }
 
 /* Headings with dark orange color */
@@ -334,20 +333,24 @@ li {
 }
 
 .example {
-  padding: 5px;
+  padding-top: 30px;
   margin: 15px;
   margin-left: 6rem;
   margin-right: 7rem;
   font-size: larger;
-  border: 2px solid blue;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .thank-you {
   color: blue;
   transition: 0.5s ease-in-out;
-  font-size: larger;
+  font-size: 1.8rem;
+}
+#exampleModalLabel {
+  font-size: 3rem;
+}
+.modal-title{
+  font-size: 3rem;  
 }
 .modal-body {
   color: #0073ff;

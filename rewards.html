@@ -62,24 +62,19 @@
 
     <main>
         <h1 class="text-center name reward-tier mt-4 pt-4">Reward Tier</h1>
+        <h2 class="text-center">Welcome to Your Rewards</h2>
         <p class="great-job">You've done a great job! Well done! Now it's time to choose a reward that's suitable for
             the task.</p>
-        <p class="text-center">Rewards are divided into three tiers: small wins, medium wins, and big wins.
+        <p class="text-center">Rewards are divided into three tiers: small wins, medium wins, and big wins.</p>
 
         <!-- Reward Tiers Carousel -->
-        <div id="rewardCarousel" class="carousel slide my-4" data-bs-ride="carousel" style="border-radius: 1rem;">
+        <div id="rewardCarousel" class="carousel slide my-4" data-bs-ride="carousel" data-bs-interval="5000"
+            style="border-radius: 1rem;">
             <div class="carousel-inner">
-                <div class="carousel-item small-wins active">
-                    <div class="carousel-item active">
-                        <img src="assets\images\Rewards caption.webp" class="d-block w-100" alt="Rewards">
-                        <div class="carousel-caption">
-                            <h2 style="color: darkorange;">Welcome to Your Rewards</h2>
-                        </div>
-                    </div>
-
+                <div class="carousel-item active">
                     <div class="d-flex flex-column align-items-center py-4"
                         style="background-color: black; border-radius: 1rem;">
-                        <h3 style="color: #D2691E;">Small Wins</h3>
+                        <h3>Small Wins</h3>
                         <ul>
                             <li>✔ Stickers</li>
                             <li>✔ Snack</li>
@@ -92,10 +87,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="carousel-item medium-wins">
+                <div class="carousel-item">
                     <div class="d-flex flex-column align-items-center py-4"
                         style="background-color: black; border-radius: 1rem;">
-                        <h3 style="color: #D2691E;">Medium Wins</h3>
+                        <h3 class="text-center">Medium Wins</h3>
                         <ul>
                             <li>✔ Cinema</li>
                             <li>✔ Movie night</li>
@@ -108,10 +103,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="carousel-item big-wins">
+                <div class="carousel-item">
                     <div class="d-flex flex-column align-items-center py-4"
                         style="background-color:black; border-radius: 1rem;">
-                        <h3 style="color: darkorange;">Big Wins</h3>
+                        <h3 class="text-center">Big Wins</h3>
                         <ul>
                             <li>✔ Seaside</li>
                             <li>✔ Zoo</li>
@@ -139,10 +134,10 @@
         <!-- Example of what constitute small wins, medium wins and big milestones!-->
         <div class="text-center example">
             <h2>Example of Tasks Corresponding to a Reward Tier</h2>
-            <p><strong>Small Wins:</strong> Completing a simple task like cleaning up toys or helping with a small
-                chore.</p>
-            <p><strong>Medium Wins:</strong> Finishing a homework assignment or helping with a bigger task.</p>
-            <p><strong>Big Wins:</strong> Completing a series of tasks or achieving a significant goal.</p>
+            <p>✅Small Wins: Completing a simple task like cleaning up toys or helping with a small
+                chore</p>
+            <p>✅Medium Wins: Finishing a piece of homework on time or helping with a bigger task</p>
+            <p>✅Big Wins: Completing a series of tasks or achieving a more significant goal</p>
         </div>
 
         <div class="container mt-5">
@@ -192,10 +187,12 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Thank you for visiting Little Rewards! We hope you found it helpful and fun.
-                        <p>We hope you and your children enjoy the tasks and rewards.</p>
-                        Selecting a reward tier allows kids to pick something they truly enjoy.
-                        Message to the Kids: Enjoy your rewards and keep up the great work!
+                        <p>
+                            Thank you for visiting Little Rewards! We hope you found it helpful and fun.
+                            We hope you and your children enjoy the tasks and rewards.
+                            Selecting the appropriate reward tier give kids something they truly enjoy.
+                            Kids: Enjoy your rewards and keep up the great work!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -238,7 +235,6 @@
 
     <!-- Font Awesome-->
     <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
-
 
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
     <script>
