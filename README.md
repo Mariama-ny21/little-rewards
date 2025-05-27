@@ -25,10 +25,6 @@ When reaching the **Task** page, parents can browse and select tasks suited to t
 ## Website Address
 The deployed website can be viewed at: https://mariama-ny21.github.io/little-rewards/
 
-## Credits
-- All images on the website are AI-generated, contributing to the vibrant and engaging visual experience of the program. 
-- The JavaScript code used to collaps the menu when internal links are clicked was obtained from tuition materials.
-
 ## Testing
 One of the main problem faced when building Little Rewards was that the hero-section image on the home page was not showing in my workspace. Interestingly, it was always showing up in the web browser. I was however determined to fix the issue. After a good number of attempts in debugging, a solution was finally found after validating my CSS code. The issue was that the background: linear-gradient had one colour instead of two. Once both colours were present, the image in the hero-section showed up in my workspace. Problem solved! 
  
@@ -48,4 +44,24 @@ One of the main problem faced when building Little Rewards was that the hero-sec
 
 ## Jigsaw W3C CSS Validator Screenshot
 ![Local Image](assets\images\Screenshots\jigsaw-css-validator_style.css.png)
-![Local Image] 
+
+## Key Updates
+Home Page
+- CSS style for the active nav links were updated to ensure links are visible when clicked 
+- Css style for the navbar toggler icon was added to ensure that the navbar toggler icon is visible on smaller screens
+- Hero image updated to a high resolution image with better quality and semi-transparent overlay added to ensure improved text visibility
+- Text colour on hero image changed and font-size increased for enhanced redability 
+- Buttons text font-size also increased to ensure readability
+- Two Cards titles under the Key Highlight section were also updated
+- The previous Parents and Guardians paragraph has been summarised using checkmark (✅) icon to highlight key points
+
+About Page
+- A medium blue background colour added to the About page which gives it a fresher look and the text are clearly visible
+
+JavaScript Addition
+- Add event listener to the home page buttons
+
+
+## Credits
+- All images on the website are AI-generated, contributing to the vibrant and engaging visual experience of the program. 
+- The JavaScript code used to collaps the menu when internal links are clicked was obtained from tuition materials.

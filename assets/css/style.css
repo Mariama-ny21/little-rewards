@@ -1,394 +1,419 @@
-@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Macondo&display=swap");
 /*Astericsk wildcard selector to overide default styles added by the browser */
-*{
-    padding: 0;
-    margin: 0;
-    top: 0;
-    box-sizing: border-box;
-    }
+* {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
+}
 
 /* General styles */
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    margin-left: 1rem; 
-    margin-right: 1rem;
-    width: 100%;  
-    font-family: "Macondo", cursive;
-    letter-spacing: 2px;
-    padding-top: 2rem/* Push the hearder down below the navbar */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 100%;
+  font-family: "Macondo", cursive;
+  letter-spacing: 2px;
+  padding-top: 2rem; /* Push the hearder down below the navbar */
 }
-h1{
-    color: darkorange;
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: "Macondo", cursive;
+h1 {
+  color: darkorange;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Macondo", cursive;
 }
 h2,
-h3
-{ 
-    font-family: "Macondo", cursive;
-    color: darkorange;
-    margin: 2px;   
+h3 {
+  font-family: "Macondo", cursive;
+  color: darkorange;
+  margin: 2px;
 }
-p{
-    font-family: "Livvic", sans-serif;
-    color: #0073FF;
-    font-size: 1.2rem;
-    margin: 2px; 
-    font-family: "Livvic", sans-serif;
+p {
+  font-family: "Livvic", sans-serif;
+  color: #0073ff;
+  font-size: 1.2rem;
+  margin: 2px;
+  font-family: "Livvic", sans-serif;
 }
-li{
-    list-style-type: none; /* Remove default bullet points from lists */
-    margin: 0.5rem 0; /* Add some space between list items */
-    padding: 0.1rem; /* Add some padding to list items */
-    color: #0073FF;
-    font-size: 1.2rem;
-    font-family: "Livvic", sans-serif;
+li {
+  list-style-type: none; /* Remove default bullet points from lists */
+  margin: 0.5rem 0; /* Add some space between list items */
+  padding: 0.1rem; /* Add some padding to list items */
+  color: #0073ff !important;
+  font-size: 1.2rem;
+  font-family: "Livvic", sans-serif;
 }
-.sub-heading{
-    font-size:larger; 
-    font-family: "Livvic", sans-serif;
-    color: #0073FF;
-    font-weight: bold;
+.sub-heading {
+  font-size: larger;
+  font-family: "Livvic", sans-serif;
+  color: #0073ff;
+  font-weight: bold;
 }
 
 /* Header */
- header{
-    color:darkorange;
-  
+header {
+  color: darkorange;
 }
-header h1, h2{
-    color: darkorange;
-    font-size: 2rem;
-    font-weight: bold;
+header h1,
+h2 {
+  color: darkorange;
+  font-size: 2rem;
+  font-weight: bold;
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto; /* Ensures centering without shifting everything */
-    background-color: darkorange !important;
-    color: white;
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Ensures centering without shifting everything */
+  background-color: darkorange !important;
+  color: white;
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
-.btn:hover{
-    background-color: goldenrod !important;
-    transition: background-color 0.3s ease;
+.btn:hover {
+  background-color: goldenrod !important;
+  transition: background-color 0.3s ease;
 }
 
 /* Navigation */
 .nav-link {
-    font-size: larger;
-    font-family: Macondo, cursive;
-    color: gold;
-    font-weight: bold;
-    text-decoration: none;
+  font-size: larger;
+  font-family: Macondo, cursive;
+  color: gold !important; /* Ensures the link color is gold */
+  transition: color 0.5s ease-in-out;
+  font-weight: bold;
+  text-decoration: none;
 }
 /* Maintain color when the link is clicked */
 .nav-link:visited {
-    color: gold !important; /* Ensures visited links stay gold */
-    transition: 0.5s ease-in-out;
+  color: gold !important; /* Ensures visited links stay gold */
+  transition: 0.5s ease-in-out;
 }
+
 /* Hover effect */
 .nav-link:hover {
-    color: darkorange !important;
-    font-size: xx-large;
-    transition: 0.5s ease-in-out;
+  color: darkorange !important;
+  font-size: xx-large;
+  transition: 0.5s ease-in-out;
 }
 
 /* Little Reward brand */
-.navbar-brand{
-    font-weight: bolder;
-    color: darkorange;
-    font-size: 1.5rem;
-    transition: 0.5s ease-in-out;
+.navbar-brand {
+  font-weight: bolder;
+  color: darkorange;
+  font-size: 1.5rem;
+  transition: 0.5s ease-in-out;
 }
-.navbar-brand:hover{
-    color: gold !important;
-    font-size:xx-large;
-    transition: 0.5s ease-in-out;
+.navbar-brand:hover {
+  color: gold !important;
+  font-size: xx-large;
+  transition: 0.5s ease-in-out;
 }
-.navbar{
-    background-color: darkblue!important;
-    padding: 0.5rem;
-    margin-bottom: 2rem;
+.navbar {
+  background-color: darkblue !important;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.navbar-toggler {
+  border-color: gold !important; /* Ensures the toggle button itself stands out */
 }
 
 /* Main Content */
-main{
-flex: 1 0 auto; /* Main element take up surplus space to push footer down */
-    padding-top: 2rem; /* Pushes the main content down away from the navbar */
-    padding-bottom: 2rem; /* Pushes the main content up away from the footer */
+main {
+  flex: 1 0 auto; /* Main element take up surplus space to push footer down */
+  padding-top: 2rem; /* Pushes the main content down away from the navbar */
+  padding-bottom: 2rem; /* Pushes the main content up away from the footer */
 }
-.card{
-    height: 98%;
-    width: 98%;
+.card {
+  height: 98%;
+  width: 98%;
 }
 .card-body {
-    font-size:x-large; 
-    color: darkorange;
+  font-size: x-large;
+  color: darkorange;
 }
-.name{
-    font-size: 3rem;
-    font-weight: bold;
+.name {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 /* Hero styling */
 .hero-section {
-    background: linear-gradient(rgba(52, 40, 2, 0.3), rgba(255, 255, 255, 0)), 
-            url('../images/hero.webp') no-repeat center center;
-    background-size: cover;
-    background-position: center top;
-    object-fit: cover;
-    object-position: top;
-    padding: 150px 0; /* Increase top padding to push text down */
-    min-height: 100vh; /* Full viewport height */
-    display: flex; /* Use Flexbox for alignment */
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+  background: linear-gradient(rgba(52, 40, 2, 0.3), rgba(255, 255, 255, 0)),
+    url("../images/hero.webp") no-repeat center center;
+  background-size: cover;
+  background-position: center top;
+  object-fit: cover;
+  object-position: top;
+  position: relative;
+  padding: 150px 0; /* Increase top padding to push text down */
+  width: 100%; /* Prevents overflow on smaller screens */
+  height: 100vh; /* Ensures full viewport coverage */
 }
-.hero-section h1 {
-    color: navy !important;
-    font-size: 4.5rem;
-    margin-bottom: 20px;
-    text-align: center;
-}
-/* Home page */
-.encourage{
-    padding: 15px;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 3rem;
-    font-size: larger;
-    border: 2px solid blue;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.little-rewards{
-    padding-top: 3.5rem; /* prevent navbar overlap */
-    }   
-    .lead{
-        font-weight: bolder;
-        font-size: 1.8rem;
-        color: navy;
-    }
 
-    /* Today's tasks and rewards */
-.today{
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    text-align: center;
-    padding-top: 0;
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(184, 190, 192, 0.3); /* Improved overlay */
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2; /* Ensures text stays above overlay */
+}
+
+.hero-section h1 {
+  color: darkblue !important;
+  font-size: 7rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Home page */
+.little-rewards {
+  padding-top: 3.5rem; /* prevent navbar overlap */
+}
+.lead {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: darkblue;
+  text-align: center;
+}
+.parents-list {
+    list-style: disc; /* Ensures bullet points only for this section */
+    padding-left: 20px; /* Adds spacing for better alignment */
+    padding-top: 2rem !important; /* Adds spacing from the top */
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Today's tasks and rewards */
+.today {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 0;
 }
 .day-tasks {
-    color: #0073FF;
-    padding: 30px;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    text-align: center;
-    list-style-type:"none";
-    justify-content: center;
+  color: #0073ff;
+  padding: 30px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  list-style-type: "none";
+  justify-content: center;
 }
-.day-rewards{
-    color: #0073FF;
-    padding: 30px;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    text-align: center;
-    list-style-type:"none";
-    justify-content: center;
+.day-rewards {
+  color: #0073ff;
+  padding: 30px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  list-style-type: "none";
+  justify-content: center;
 }
- .day-reward h3{
-    margin: 10px;
-    padding: 30px;
-    font-size: 2rem;
- }
+.day-reward h3 {
+  margin: 10px;
+  padding: 30px;
+  font-size: 2rem;
+}
 
 /* About Us */
-#about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    background-color: #f9f9f9;
-    color: #0073FF;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+#about {
+  background-color: #0000cd !important;
+  color: white !important; /* Ensures text is visible against the dark background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.about-us{
-    padding-top: 2rem!important; /* Pushes the about us heading down away from the navbar */
+
+.about-us {
+  padding-top: 2rem !important; /* Pushes the about us heading down away from the navbar */
 }
-.img-fluid{
-    max-width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.img-fluid {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Tasks */
-#task{
-background-color: navy;
+#task {
+  background-color: navy;
 }
-.category{
-    font-size: large;
-    color: darkorange;
+.category {
+  font-size: large;
+  color: darkorange;
 }
-.category h2{
-    color: darkorange;
-    font-size: xx-large;
+.category h2 {
+  color: darkorange;
+  font-size: xx-large;
 }
 
 body a {
-    justify-content: center;
-    font-size: larger;
+  justify-content: center;
+  font-size: larger;
 }
- 
-.highlights{
-    padding-top: 0;
+
+.highlights {
+  padding-top: 0;
 }
 
 .task-button {
-    margin-bottom: 2rem; 
-    padding-bottom: 2rem; /* Pushed the button upwards a little */
+  margin-bottom: 2rem;
+  padding-bottom: 2rem; /* Pushed the button upwards a little */
 }
-
 
 /* Reward tier */
 .reward-categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 /* Carousel styling */
 .reward-carousel {
-    border-radius: 1rem;
-    overflow: hidden;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 /* Individual reward items */
 .reward-item {
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: black; /* Consistent background across tiers */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: black; /* Consistent background across tiers */
 }
 
 /* Headings with dark orange color */
 .reward-item h3 {
-    font-size: 1.5em;
-    font-family: Macondo, cursive;
-    color: darkorange;
-    font-weight: bold;
+  font-size: 1.5em;
+  font-family: Macondo, cursive;
+  color: darkorange;
+  font-weight: bold;
 }
 
 /* List styles */
 .reward-item ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .reward-item li {
-    font-size: 1.2em;
-    padding: 8px 0;
-    color: white !important; /* White text color for better visibility */
+  font-size: 1.2em;
+  padding: 8px 0;
+  color: white !important; /* White text color for better visibility */
 }
 
 li {
-    color: white !important;
+  color: white !important;
 }
 
-
-.great-job{
-    padding-bottom: 1rem;
-    text-align: center;
+.great-job {
+  padding-bottom: 1rem;
+  text-align: center;
 }
 
-.example{
-    padding: 5px;
-    margin: 15px;
-    margin-left: 6rem;
-    margin-right: 7rem;
-    font-size: larger;
-    border: 2px solid blue;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.example {
+  padding: 5px;
+  margin: 15px;
+  margin-left: 6rem;
+  margin-right: 7rem;
+  font-size: larger;
+  border: 2px solid blue;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.thank-you{
-    color: blue;
-    transition: 0.5s ease-in-out;
-    font-size: larger
-    
+.thank-you {
+  color: blue;
+  transition: 0.5s ease-in-out;
+  font-size: larger;
 }
-.modal-body{
-    color:#0073FF
+.modal-body {
+  color: #0073ff;
 }
-    
+
 /* Footer */
-footer{
-    background-color: darkblue;
-    list-style-type: none;
+footer {
+  background-color: darkblue;
+  list-style-type: none;
 }
-#faq{
-    font-size: larger;
+#faq {
+  font-size: larger;
 }
-#contact-us{
-    padding-top: 0;
-    color: #0073FF;
-    font-size: larger;
-}
-  
-#contact{
-padding-top: 30px;
-margin-left: 0px;
-margin-right: 0px;
-width: 100%;
-font-size: larger;
-}
-#contactUsForm{
-font-size: larger;
+#contact-us {
+  padding-top: 0;
+  color: #0073ff;
+  font-size: larger;
 }
 
+#contact {
+  padding-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  font-size: larger;
+}
+#contactUsForm {
+  font-size: larger;
+}
 
-.social-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
-    font-size: 25px;
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 25px;
 }
 
 .social-links a {
-    color: darkorange;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    transition: color 0.3s ease;
+  color: darkorange;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  transition: color 0.3s ease;
 }
 
 /* Hover effect */
 .social-links :hover {
-    color: gold;
-    transition: 0.5s ease-in-out;
+  color: gold;
+  transition: 0.5s ease-in-out;
 }
 
 /* Media Queries */
 /* Ensure responsiveness */
 @media (max-width: 768px) {
-    .reward-card {
-        width: 90%;
-    }
+  .reward-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .hero-section {
+    width: 100%; /* Full-width display */
+    height: 720px; /* Maintains correct aspect ratio */
+    background-size: cover;
+    background-position: center;
+  }
 }
