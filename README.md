@@ -70,6 +70,7 @@ Rewards Page
 Contact Page
 - The Contact page redesigned by using Accordion for the FAQ and changing the Feedback form to Contact Us form
 - CSS style was also updated for the Contact page
+- Footer adjusted on Contact page so that it takes very little space
 
 ## Credits
 - All images on the website are AI-generated, contributing to the vibrant and engaging visual experience of the program. 

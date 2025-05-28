@@ -182,8 +182,7 @@ main {
 
 /* Ensure hero text is always visible and readable */
 .hero-text {
-  color: #002366;
-  text-shadow: 2px 2px 8px rgba(255,255,255,0.8), 0 0 2px #fff;
+  color: darkblue;
   font-weight: bold;
   text-align: center;
   padding: 0 1rem;
@@ -407,19 +406,38 @@ li {
 }
 
 /* Footer */
+/* Reduce footer padding and margin */
 footer {
   background-color: darkblue;
   list-style-type: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0;
 }
 
-.social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-  font-size: 25px;
+footer .container {
+  padding-top: 0;
+  padding-bottom: 0;
 }
+
+footer .row {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer .social-links {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+  font-size: 22px;
+}
+
+footer p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: darkorange;
+}
+
 
 .social-links a {
   color: darkorange;
@@ -489,7 +507,6 @@ footer {
     font-size: 1rem;
   }
 }
-
 
 @media (max-width: 768px) {
   .hero-text {
