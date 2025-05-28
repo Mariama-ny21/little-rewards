@@ -58,16 +58,20 @@
   </nav>
 
   <!-- Hero Section -->
-  <header class="container-fluid hero-section text-center">
-    <div class="container py5">
-      <h1 class="display-4"><strong>Welcome to Little Rewards</strong></h1>
-      <p class="lead"><strong>Celebrate Every Step One Little Reward at a Time</strong>!</p>
-      <div class="text-center">
-           <button type="button" class="btn btn-primary change-text-btn" onclick="window.location.href='about.html'">Get
-            Started</button>
-      </div>
+<header class="container-fluid hero-section d-flex align-items-center justify-content-center text-center">
+  <div class="hero-content w-100">
+    <h1 class="display-4 hero-text"><strong>Welcome to Little Rewards</strong></h1>
+    <p class="lead hero-text"><strong>Celebrate Every Step One Little Reward at a Time</strong>!</p>
+    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+      <button type="button" class="btn btn-primary change-text-btn" onclick="window.location.href='about.html'">
+        Get Started
+      </button>
+      <button type="button" class="btn btn-primary change-text-btn" onclick="window.location.href='contact.html'">
+        FAQ and Contact Us
+      </button>
     </div>
-  </header>
+  </div>
+</header>
 
   <!-- main content -->
   <main>
@@ -151,31 +155,31 @@
 
   <!-- Footer / Contact section-->
   <!-- mt-auto added to push footer to the bottom of the page -->
- 
-  
-    <footer id="contact" class="mt-auto text-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 text-center">
-            <h2 class="display-6">Contact</h2>
-          </div>
-          <div class="social-links media-links my-4">
-            <a href="https://www.youtube.com" target="_blank" aria-label="Visit us on YouTube (opens in a new tab)"
-              rel="noopener" style="font-size: 1.5rem; color: darkorange;">
-              <i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
-              rel="noopener" style="font-size: 1.5rem; color: darkorange;">
-              <i class="fa-brands fa-square-facebook"></i></a>
-            <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
-              rel="noopener" style="font-size: 1.5rem; color: darkorange;">
-              <i class="fa-brands fa-x-twitter"></i></a>
-          </div>
+
+
+  <footer id="contact" class="mt-auto text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2 class="display-6">Contact</h2>
+        </div>
+        <div class="social-links media-links my-4">
+          <a href="https://www.youtube.com" target="_blank" aria-label="Visit us on YouTube (opens in a new tab)"
+            rel="noopener" style="font-size: 1.5rem; color: darkorange;">
+            <i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
+            rel="noopener" style="font-size: 1.5rem; color: darkorange;">
+            <i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)" rel="noopener"
+            style="font-size: 1.5rem; color: darkorange;">
+            <i class="fa-brands fa-x-twitter"></i></a>
         </div>
       </div>
-  
+    </div>
 
-  <p>&copy; 2025 Little Rewards. All rights reserved.</p>
-  <p>Website by [Mariama N Nyodeka]</p>
+
+    <p>&copy; 2025 Little Rewards. All rights reserved.</p>
+    <p>Website by [Mariama N Nyodeka]</p>
   </footer>
 
 
@@ -193,14 +197,13 @@
       document.querySelectorAll(".change-text-btn").forEach(button => {
         button.addEventListener("click", function () {
           alert("You clicked a button!");
+          this.textContent = "You Clicked Me!";
+          this.style.color = "white"; // Ensures contrast for readability
+          // Navigate to about.html after a short delay so user sees the alert and text change
+          setTimeout(() => {
+            window.location.href = 'about.html';
+          }, 500);
         });
-      });
-    });
-
-    document.querySelectorAll(".change-text-btn").forEach(button => {
-      button.addEventListener("click", function () {
-        this.textContent = "You Clicked Me!";
-        this.style.color = "white"; // Ensures contrast for readability
       });
     });
   </script>

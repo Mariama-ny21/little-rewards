@@ -52,17 +52,18 @@ Home Page
 - Hero image updated to a high resolution image with better quality and semi-transparent overlay added to ensure improved text visibility
 - Text colour on hero image changed and font-size increased for enhanced redability 
 - Buttons text font-size also increased to ensure readability
+- FAQ and Contact Us button added to the hero image
 - Two Cards titles under the Key Highlight section were also updated
 - The previous Parents and Guardians paragraph has been summarised using checkmark (✅) icon to highlight key points
 
-JavaScript Addition
+### JavaScript Addition
 - Add event listener to the home page buttons
 
 About Page
 - A medium blue background colour added to the About page which gives it a fresher look and the text are clearly visible
 
 Rewards Page
-- The Rewards page was redesigned and the major changes includes the removal of the cards and the addition of a Bootstrap carousel
+- The Rewards page was redesigned and the major changes includes the addition of the previous cards into a Bootstrap carousel
 - The Example section was also restyled using a check list
 - The Thank You modal message was also updated
 

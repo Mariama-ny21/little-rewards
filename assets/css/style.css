@@ -37,7 +37,6 @@ p {
   color: #0073ff;
   font-size: 1.2rem;
   margin: 2px;
-  font-family: "Livvic", sans-serif;
 }
 li {
   list-style-type: none; /* Remove default bullet points from lists */
@@ -148,6 +147,7 @@ main {
 }
 
 /* Hero styling */
+
 .hero-section {
   background: linear-gradient(rgba(52, 40, 2, 0.3), rgba(255, 255, 255, 0)),
     url("../images/hero.webp") no-repeat center center;
@@ -162,35 +162,50 @@ main {
 }
 
 .hero-section::before {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; /* Match the hero-section's height */
   background-color: rgba(184, 190, 192, 0.3); /* Improved overlay */
   z-index: 1;
+  pointer-events: none;
+  border-radius: inherit; /* Inherit border radius if any */
+  box-sizing: border-box;
 }
 
+/* Ensure hero text is always visible and readable */
 .hero-text {
-  position: relative;
-  z-index: 2; /* Ensures text stays above overlay */
+  color: #002366;
+  text-shadow: 2px 2px 8px rgba(255,255,255,0.8), 0 0 2px #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 1rem;
+  word-break: break-word;
 }
 
 .hero-section h1 {
   color: darkblue !important;
-  font-size: 7rem;
+  font-size: 3.5rem;
   margin-bottom: 20px;
   text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-weight: bold;
 }
 
 /* Home page */
 .little-rewards {
-  padding-top: 3.5rem; /* prevent navbar overlap */
+  padding-top: 2.5rem; /* prevent navbar overlap */
 }
 .lead {
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: darkblue;
   text-align: center;
 }
@@ -285,14 +300,13 @@ body a {
 /* Reward tier */
 /* Carousel styling */
 #rewardCarousel {
-    display: flex;
-    border-radius: 1rem;
-    overflow: hidden;
-    width: 70%;
-    margin: 0 auto;
-    background-color: black;
+  display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  background-color: black;
 }
-
 
 /* Individual reward items */
 .reward-item {
@@ -351,8 +365,8 @@ li {
 #exampleModalLabel {
   font-size: 3rem;
 }
-.modal-title{
-  font-size: 3rem;  
+.modal-title {
+  font-size: 3rem;
 }
 .modal-body {
   color: #0073ff;
@@ -364,12 +378,12 @@ li {
   padding-top: 1rem;
 }
 #faq p {
-  padding-bottom: 2rem! important;
-    font-size: 1.3rem!important;
+  padding-bottom: 2rem !important;
+  font-size: 1.3rem !important;
 }
-.accordion-button{
-font-size: 1.3rem;
-color: black;
+.accordion-button {
+  font-size: 1.3rem;
+  color: black;
 }
 
 .accordion-body {
@@ -384,8 +398,8 @@ color: black;
 }
 
 .form-control {
-    font-size: 1.3rem; /* increases font-size */
-    padding: 0.5rem; /* Adds some breathing space */
+  font-size: 1.3rem; /* increases font-size */
+  padding: 0.5rem; /* Adds some breathing space */
 }
 .form-label {
   font-size: 1.3rem; /* Increases label font size */
@@ -429,11 +443,68 @@ footer {
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
   .hero-section {
-    width: 100%; /* Full-width display */
-    height: 720px; /* Maintains correct aspect ratio */
-    background-size: cover;
-    background-position: center;
+    min-height: 50vh;
+    height: 60vh;
+    padding: 0;
+  }
+  .hero-section .hero-content {
+    padding: 1.5rem 0.5rem;
+    max-width: 95vw;
+  }
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+  .hero-section .btn {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+  }
+  .hero-section .d-flex.flex-sm-row {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section::before {
+    height: 100%; /* Ensures overlay matches hero-section height on small screens */
+    min-height: 0;
+    max-height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    min-height: 40vh;
+    height: 50vh;
+  }
+  .hero-section h1 {
+    font-size: 1.3rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 1.2rem;
+    color: #002366;
+    text-shadow: 1px 1px 6px rgba(255,255,255,0.9), 0 0 2px #fff;
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 1rem;
+    color: #002366;
+    text-shadow: 1px 1px 6px rgba(255,255,255,0.95), 0 0 2px #fff;
+    padding: 0 0.2rem;
   }
 }
