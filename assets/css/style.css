@@ -404,6 +404,12 @@ li {
   font-size: 1.3rem; /* Increases label font size */
   color: #0073ff; /* Ensures label color is consistent */
 }
+#thankYouMessage {
+  font-size: 1.2rem;
+  color: #0073ff;
+  text-align: center;
+  margin-top: 1rem;
+}
 
 /* Footer */
 /* Reduce footer padding and margin */
