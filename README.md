@@ -16,18 +16,15 @@
 13. Key Updates
 
 1️. Introduction
-Little Rewards is an engaging task and reward system designed to help children aged 4 to 10 to develop responsibility, perseverance, kindness, and a sense of achievement in both academic and everyday settings. By offering small but meaningful incentives, the program motivates kids to complete tasks like homework, chores, and acts of kindness, transforming goal-setting into a fun experience. Parents can personalize challenges to match their child's development, reinforcing positive behavior through structured guidance and thoughtful rewards. With a colorful, intuitive interface, uplifting visuals, and a smooth user experience, Little Rewards makes learning and personal growth exciting, rewarding, and impactful. 
-
-Experience Little Rewards firsthand! Visit the deployed version here: [Live Demo](https://mariama-ny21.github.io/little-rewards)
-
+Little Rewards is an engaging task and reward system designed to help children aged 4 to 10 to develop responsibility, perseverance, kindness, and a sense of achievement in both academic and everyday settings. By offering small but meaningful incentives, the program motivates kids to complete tasks like homework, chores, and acts of kindness, transforming goal-setting into a fun experience. Parents can personalise challenges to match their child's development, reinforcing positive behavior through structured guidance and thoughtful rewards. With a colorful, intuitive interface, uplifting visuals, and a smooth user experience, Little Rewards makes learning and personal growth exciting, rewarding, and impactful. Experience Little Rewards firsthand! Visit the deployed site here: [Live Demo](https://mariama-ny21.github.io/little-rewards)
 
 2️. Project Overview
 The main objective is to develop a website using HTML and CSS. The inspiration behind Little Rewards came from the need to make learning, chores, and good behavior more engaging for kids. This system helps parents guide children through everyday tasks while reinforcing accomplishments with fun rewards.
 
 3️. UX/UI Design
-- The design prioritizes simplicity and child-friendly visuals:
-- Warm vibrant colours (gold, darkorange, blue, darkblue, navy, black and white) used throughout the site to enhance motivation
-- Bold, readable fonts (Macondo", cursive & Livvic", sans-serif) and colorful visuals used to capture attention
+- The design prioritises simplicity and child-friendly visuals:
+- Warm vibrant colours such as gold, darkorange, blue and navy are used throughout the site to enhance motivation
+- Readable fonts (Macondo, cursive & Livvic, sans-serif) and colorful visuals used to capture attention
 - Accessible navigation for both parents and kids
 - Responsive layout for seamless experience on desktop and mobile
 
@@ -35,13 +32,13 @@ The main objective is to develop a website using HTML and CSS. The inspiration b
 Core features include:
 - Home - Introduction to the platform
 - About - Purpose and structure
-- Tasks - Details of tasks avalable
+- Tasks - Details of different task category
 - Rewards - Reward Tier and Incentives
 - Contact - FAQ and how users can reach out
 - Interactive UI: Simple, engaging, and motivating images to encourage progress
 
 5. How It Works?
-Little Rewards is designed to be an intuitive and seamless task-and-reward system, helping parents guide their children through positive habit-building in a structured yet engaging way. The journey begins on the Home page, where users can review key information and navigate easily. On the Task page, parents select tasks suited to their child’s abilities and developmental stage, ensuring personalized learning experiences. The Reward page provides examples of incentives based on completed tasks, allowing parents to tailor rewards according to effort and difficulty. A simple click on the Thank You button marks the completion of the process, fostering motivation, celebration, and continued positive reinforcement for families.
+Little Rewards is designed to be an intuitive and seamless task-and-reward system, helping parents guide their children through positive habit-building in a structured yet engaging way. The journey begins on the Home page, where users can review key information and navigate easily. On the Task page, parents select tasks suited to their child’s abilities and developmental stage, ensuring personalised learning experiences. The Reward page provides examples of incentives based on completed tasks, allowing parents to tailor rewards according to effort and difficulty. A simple click on the Thank You button marks the completion of the process, fostering motivation, celebration, and continued positive reinforcement for families. For more additional information, please see the FAQ section on the Contact page.
 
 6. Technologies Used
 Little Rewards is built using:
@@ -51,7 +48,7 @@ Little Rewards is built using:
 Development and design tools:
 - Visual Studio Code (coding environment)
 - Lighthouse (performance analysis)
-- GitHub (version control and collaboration)
+- GitHub (version control)
 
 8. Testing
 Testing ensures a smooth experience:
@@ -93,8 +90,6 @@ Throughout the development, key challenges included:
 - Finding solutions to technical issues
 - Refining the reward logic—ensuring incentives align with appropriate Reward Tiers
 - Improving accessibility for younger audiences
-Optimizing page load speeds and ensuring smooth interactions
-
 
 12 Credits
 - All images on the website are AI-generated, contributing to the vibrant and engaging visual experience of the program. 
@@ -105,28 +100,25 @@ Home Page:
 - CSS style for the active nav links were updated to ensure links are visible when clicked 
 - Css style for the navbar toggler icon was added to ensure that the navbar toggler icon is visible on smaller screens
 - Hero image updated to a high resolution image with better quality and semi-transparent overlay added to ensure improved text visibility
-- Text colour on hero image changed and font-size increased for enhanced redability 
+- Text colour on hero image changed, font-family changed and font-size increased for enhanced redability 
 - Buttons text font-size also increased to ensure readability
-- FAQ and Contact Us button added to the hero image
+- FAQ Contact Us button added to the hero image
 - Two Cards titles under the Key Highlight section were also updated
 - The previous Parents and Guardians paragraph has been summarised using checkmark (✅) icon to highlight key points
-- Screenshot added to home page
-
- JavaScript Addition
-- Add event listener to the home page buttons
+- JavaScript addition to the home page by adding event listeners to the home page buttons
 
 About Page:
 - A medium blue background colour added to the About page which gives it a fresher look and the text are clearly visible
 
 Rewards Page:
-- The Rewards page was redesigned and the major changes includes the addition of the previous cards into a Bootstrap carousel
+- The Rewards page was redesigned, and the major changes includes the addition of the previous cards into a Bootstrap carousel
 - The Example section was also restyled using a check list
 - The Thank You modal message was also updated
 
 Contact Page:
-- The Contact page redesigned by using Accordion for the FAQ and changing the Feedback form to Contact Us form
+- The Contact page was redesigned by using Accordion for the FAQ and changing the Feedback form to Contact Us form
 - CSS style was also updated for the Contact page
 - Footer adjusted on Contact page and other pages so that it occupies very little space
 
-Screenshots
-- Lighthouse report generated for all pages; HTML and CSS validation done
+Screenshots:
+- Lighthouse report generated for all pages; HTML and CSS validation done after all the changes were made.
