@@ -62,7 +62,7 @@ One of the main problem faced when building Little Rewards was that the hero-sec
 Lighthouse Report Screenshots
 ![home-page-lighthouse](https://github.com/user-attachments/assets/244d4037-e952-47d5-be9f-28968417cd57)
 ![about-page-lighthouse](https://github.com/user-attachments/assets/c04639c4-5889-4354-99ef-4abb1a50d017)
-![task-page-lighthouse](https://github.com/user-attachments/assets/5c9ddd6e-a4a4-4bda-9962-67de79d2a10b)
+![task-page-lighthouse](https://github.com/user-attachments/assets/7d5bc1d8-b8a4-4d07-b5d0-15f472e03cc3)
 ![reward-page-lighthouse](https://github.com/user-attachments/assets/ba8bc989-c96d-4a9f-8468-6e2e940f8afe)
 ![contact-page-lighthouse](https://github.com/user-attachments/assets/b8c53686-f452-4df3-9fd6-11074928814d)
 
