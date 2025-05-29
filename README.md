@@ -40,6 +40,7 @@ One of the main problem faced when building Little Rewards was that the hero-sec
 ![html-validator_home](https://github.com/user-attachments/assets/2372c6ce-01d8-49bb-8084-b0c283855b21)
 ![html-validator_about](https://github.com/user-attachments/assets/fc8ba905-c5eb-4e18-a882-2f9a1ebe83a2)
 ![html-validator_tasks](https://github.com/user-attachments/assets/53096ead-7140-4af7-8f4b-ffd4a746b9fb)
+![html-validator_rewards](https://github.com/user-attachments/assets/4bfd0155-3c1f-428c-8e61-b95a55d0366f)
 ![html-validator_contact](https://github.com/user-attachments/assets/3507c338-71e7-4646-b85a-7936d3a84c48)
 
 
