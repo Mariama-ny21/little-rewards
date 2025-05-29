@@ -29,21 +29,23 @@ The deployed website can be viewed at: https://mariama-ny21.github.io/little-rew
 One of the main problem faced when building Little Rewards was that the hero-section image on the home page was not showing in my workspace. Interestingly, it was always showing up in the web browser. I was however determined to fix the issue. After a good number of attempts in debugging, a solution was finally found after validating my CSS code. The issue was that the background: linear-gradient had one colour instead of two. Once both colours were present, the image in the hero-section showed up in my workspace. Problem solved! 
  
 ## Lighthouse Report Screenshots
-![Local Image](assets\images\Screenshots\home-page-lighthouse.png) 
-![Local Image](assets\images\Screenshots\about-page-lighthouse.png)
-![Local Image](assets\images\Screenshots\reward-page-lighthouse.png)
-![Local Image](assets\images\Screenshots\task-page-lighthouse.png)
-![Local Image](assets\images\Screenshots\contact-page-lighthouse.png)
+![home-page-lighthouse](https://github.com/user-attachments/assets/244d4037-e952-47d5-be9f-28968417cd57)
+![about-page-lighthouse](https://github.com/user-attachments/assets/c04639c4-5889-4354-99ef-4abb1a50d017)
+![task-page-lighthouse](https://github.com/user-attachments/assets/5c9ddd6e-a4a4-4bda-9962-67de79d2a10b)
+![reward-page-lighthouse](https://github.com/user-attachments/assets/f8b6ffb1-f7a1-4f36-9837-d00b2f6cdb25)
+![contact-page-lighthouse](https://github.com/user-attachments/assets/b8c53686-f452-4df3-9fd6-11074928814d)
+
 
 ## W3C HTML Validator Screenshots
-![Local Image](assets\images\Screenshots\html-validator_home.png)
-![Local Image](assets\images\Screenshots\html-validator_about.png)
-![Local Image](assets\images\Screenshots\html-validator_rewards.png)
-![Local Image](assets\images\Screenshots\html-validator_tasks.png)
-![Local Image](assets\images\Screenshots\html-validator_contact.png)
+![html-validator_home](https://github.com/user-attachments/assets/2372c6ce-01d8-49bb-8084-b0c283855b21)
+![html-validator_about](https://github.com/user-attachments/assets/fc8ba905-c5eb-4e18-a882-2f9a1ebe83a2)
+![html-validator_tasks](https://github.com/user-attachments/assets/53096ead-7140-4af7-8f4b-ffd4a746b9fb)
+![html-validator_contact](https://github.com/user-attachments/assets/3507c338-71e7-4646-b85a-7936d3a84c48)
+
 
 ## Jigsaw W3C CSS Validator Screenshot
-![Local Image](assets\images\Screenshots\jigsaw-css-validator_style.css.png)
+![jigsaw-css-validator_style css](https://github.com/user-attachments/assets/2e90b6e3-9661-4c53-b299-6cec25e7e702)
+
 
 ## Key Updates
 Home Page
