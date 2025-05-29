@@ -303,7 +303,7 @@ body a {
   overflow: hidden;
   width: 70%;
   margin: 0 auto;
-  background-color: black;
+  background-color: navy; 
 }
 
 /* Individual reward items */
@@ -311,7 +311,7 @@ body a {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  background-color: black; /* Consistent background across tiers */
+  background-color: navy; 
   margin: 0 auto; /* Centers the reward item */
 }
 
