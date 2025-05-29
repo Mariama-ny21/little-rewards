@@ -63,7 +63,7 @@ Lighthouse Report Screenshots
 ![home-page-lighthouse](https://github.com/user-attachments/assets/244d4037-e952-47d5-be9f-28968417cd57)
 ![about-page-lighthouse](https://github.com/user-attachments/assets/c04639c4-5889-4354-99ef-4abb1a50d017)
 ![task-page-lighthouse](https://github.com/user-attachments/assets/5c9ddd6e-a4a4-4bda-9962-67de79d2a10b)
-![reward-page-lighthouse](https://github.com/user-attachments/assets/f8b6ffb1-f7a1-4f36-9837-d00b2f6cdb25)
+![reward-page-lighthouse](https://github.com/user-attachments/assets/ba8bc989-c96d-4a9f-8468-6e2e940f8afe)
 ![contact-page-lighthouse](https://github.com/user-attachments/assets/b8c53686-f452-4df3-9fd6-11074928814d)
 
 W3C HTML Validator Screenshots
