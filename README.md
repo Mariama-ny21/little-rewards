@@ -29,7 +29,7 @@ The deployed website can be viewed at: https://mariama-ny21.github.io/little-rew
 One of the main problem faced when building Little Rewards was that the hero-section image on the home page was not showing in my workspace. Interestingly, it was always showing up in the web browser. I was however determined to fix the issue. After a good number of attempts in debugging, a solution was finally found after validating my CSS code. The issue was that the background: linear-gradient had one colour instead of two. Once both colours were present, the image in the hero-section showed up in my workspace. Problem solved! 
  
 ## Lighthouse Report Screenshots
-![home-page-lighthouse](https://github.com/user-attachments/assets/244d4037-e952-47d5-be9f-28968417cd57)
+![home-page-lighthouse](https://github.com/user-attachments/assets/1e0414a3-05d1-4ca2-b736-40c7b9882800)
 ![about-page-lighthouse](https://github.com/user-attachments/assets/c04639c4-5889-4354-99ef-4abb1a50d017)
 ![task-page-lighthouse](https://github.com/user-attachments/assets/5c9ddd6e-a4a4-4bda-9962-67de79d2a10b)
 ![reward-page-lighthouse](https://github.com/user-attachments/assets/f8b6ffb1-f7a1-4f36-9837-d00b2f6cdb25)
