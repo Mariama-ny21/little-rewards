@@ -182,15 +182,14 @@ main {
 
 /* Ensure hero text is always visible and readable */
 .hero-text {
-  color: darkblue;
+  color: darkblue; /* Dark blue for better contrast */
   font-weight: bold;
   text-align: center;
   padding: 0 1rem;
-  word-break: break-word;
 }
 
 .hero-section h1 {
-  color: darkblue !important;
+  color: white !important;
   font-size: 3.5rem;
   margin-bottom: 20px;
   text-align: center;
@@ -465,9 +464,6 @@ footer p {
   .reward-card {
     width: 90%;
   }
-}
-
-@media (max-width: 768px) {
   .hero-section {
     min-height: 50vh;
     height: 60vh;
@@ -491,13 +487,16 @@ footer p {
     flex-direction: column !important;
     gap: 1rem !important;
   }
-}
-
-@media (max-width: 768px) {
   .hero-section::before {
     height: 100%; /* Ensures overlay matches hero-section height on small screens */
     min-height: 0;
     max-height: 100%;
+  }
+  .hero-text {
+    font-size: 1.2rem;
+    color: #002366;
+    text-shadow: 1px 1px 6px rgba(255,255,255,0.9), 0 0 2px #fff;
+    padding: 0 0.5rem;
   }
 }
 
@@ -512,18 +511,6 @@ footer p {
   .hero-section p {
     font-size: 1rem;
   }
-}
-
-@media (max-width: 768px) {
-  .hero-text {
-    font-size: 1.2rem;
-    color: #002366;
-    text-shadow: 1px 1px 6px rgba(255,255,255,0.9), 0 0 2px #fff;
-    padding: 0 0.5rem;
-  }
-}
-
-@media (max-width: 480px) {
   .hero-text {
     font-size: 1rem;
     color: #002366;
