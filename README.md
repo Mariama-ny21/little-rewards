@@ -16,12 +16,15 @@
 13. Key Updates
 
 1️. Introduction
+
 Little Rewards is an engaging task and reward system designed to help children aged 4 to 10 to develop responsibility, perseverance, kindness, and a sense of achievement in both academic and everyday settings. By offering small but meaningful incentives, the program motivates kids to complete tasks like homework, chores, and acts of kindness, transforming goal-setting into a fun experience. Parents can personalise challenges to match their child's development, reinforcing positive behavior through structured guidance and thoughtful rewards. With a colorful, intuitive interface, uplifting visuals, and a smooth user experience, Little Rewards makes learning and personal growth exciting, rewarding, and impactful. Experience Little Rewards firsthand! Visit the deployed site here: [Live Demo](https://mariama-ny21.github.io/little-rewards)
 
 2️. Project Overview
+
 The main objective is to develop a website using HTML and CSS. The inspiration behind Little Rewards came from the need to make learning, chores, and good behavior more engaging for kids. This system helps parents guide children through everyday tasks while reinforcing accomplishments with fun rewards.
 
 3️. UX/UI Design
+
 - The design prioritises simplicity and child-friendly visuals:
 - Warm vibrant colours such as gold, darkorange, blue and navy are used throughout the site to enhance motivation
 - Readable fonts (Macondo, cursive & Livvic, sans-serif) and colorful visuals used to capture attention
@@ -29,6 +32,7 @@ The main objective is to develop a website using HTML and CSS. The inspiration b
 - Responsive layout for seamless experience on desktop and mobile
 
 4. Features
+
 Core features include:
 - Home - Introduction to the platform
 - About - Purpose and structure
@@ -38,19 +42,23 @@ Core features include:
 - Interactive UI: Simple, engaging, and motivating images to encourage progress
 
 5. How It Works?
+
 Little Rewards is designed to be an intuitive and seamless task-and-reward system, helping parents guide their children through positive habit-building in a structured yet engaging way. The journey begins on the Home page, where users can review key information and navigate easily. On the Task page, parents select tasks suited to their child’s abilities and developmental stage, ensuring personalised learning experiences. The Reward page provides examples of incentives based on completed tasks, allowing parents to tailor rewards according to effort and difficulty. A simple click on the Thank You button marks the completion of the process, fostering motivation, celebration, and continued positive reinforcement for families. For more additional information, please see the FAQ section on the Contact page.
 
 6. Technologies Used
+
 Little Rewards is built using:
-- Frontend: HTML, CSS, and a little JavaScript (for dynamic interactions).
+- Frontend: HTML, CSS, and a little JavaScript (for dynamic interactions)
 
 7. Tools Used
+
 Development and design tools:
 - Visual Studio Code (coding environment)
 - Lighthouse (performance analysis)
 - GitHub (version control)
 
 8. Testing
+
 Testing ensures a smooth experience:
 Little Rewards undergoes testing to ensure a smooth experience for both children and parents, making navigation simple and intuitive. Additionally, performance analysis through Lighthouse reports helps optimize speed and responsiveness, while cross-browser and mobile testing guarantees seamless compatibility across different devices
 
@@ -75,9 +83,11 @@ Jigsaw W3C CSS Validator Screenshot
 ![jigsaw-css-validator_style css](https://github.com/user-attachments/assets/2e90b6e3-9661-4c53-b299-6cec25e7e702)
 
 9. Deployment
+
 The deployed website can be viewed at: https://mariama-ny21.github.io/little-rewards/
 
 10. AI Assistance
+
 AI assisted with:
 - AI streamlined idea development and communication strategies 
 - AI helped refining written content for clarity and accessibility
@@ -86,16 +96,19 @@ AI assisted with:
 - AI also helped with debugging technical issues, ensuring smooth development process
 
 11. Challenges and Learnings
+
 Throughout the development, key challenges included:
 - Finding solutions to technical issues
 - Refining the reward logic—ensuring incentives align with appropriate Reward Tiers
 - Improving accessibility for younger audiences
 
 12 Credits
+
 - All images on the website are AI-generated, contributing to the vibrant and engaging visual experience of the program. 
 - The JavaScript code used to collaps the menu when internal links are clicked was obtained from tuition materials.
 
 13 Key Updates
+
 Home Page:
 - CSS style for the active nav links were updated to ensure links are visible when clicked 
 - Css style for the navbar toggler icon was added to ensure that the navbar toggler icon is visible on smaller screens
@@ -105,7 +118,7 @@ Home Page:
 - FAQ Contact Us button added to the hero image
 - Two Cards titles under the Key Highlight section were also updated
 - The previous Parents and Guardians paragraph has been summarised using checkmark (✅) icon to highlight key points
-- JavaScript addition to the home page by adding event listeners to the home page buttons
+- JavaScript addition to the home page - event listeners added to the home page buttons
 
 About Page:
 - A medium blue background colour added to the About page which gives it a fresher look and the text are clearly visible
@@ -121,4 +134,4 @@ Contact Page:
 - Footer adjusted on Contact page and other pages so that it occupies very little space
 
 Screenshots:
-- Lighthouse report generated for all pages; HTML and CSS validation done after all the changes were made.
+- Lighthouse report generated for all pages; HTML and CSS validation done after all the changes were made
