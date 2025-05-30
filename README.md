@@ -21,7 +21,7 @@ Little Rewards is an engaging task and reward system designed to help children a
 
 2️. Project Overview
 
-The main objective is to develop a website using HTML and CSS. The inspiration behind Little Rewards came from the need to make learning, chores, and good behavior more engaging for kids. This system helps parents guide children through everyday tasks while reinforcing accomplishments with fun rewards.
+The main objective is to develop a website using HTML, CSS and Bootstrap. The inspiration behind Little Rewards came from the need to make learning, chores, and good behavior more engaging for kids. This system helps parents guide children through everyday tasks while reinforcing accomplishments with fun rewards.
 
 3️. UX/UI Design
 
