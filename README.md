@@ -60,7 +60,7 @@ Development and design tools:
 8. Testing
 
 Testing ensures a smooth experience:
-Little Rewards undergoes testing to ensure a smooth experience for both children and parents, making navigation simple and intuitive. Additionally, performance analysis through Lighthouse reports helps optimize speed and responsiveness, while cross-browser and mobile testing guarantees seamless compatibility across different devices
+Little Rewards undergoes testing to ensure a smooth experience for both children and parents, making navigation simple and intuitive. Additionally, performance analysis through Lighthouse reports helps optimize speed and responsiveness, while cross-browser and mobile testing guarantees seamless compatibility across different devices.
 
 One of the main problem faced when building Little Rewards was that the hero-section image on the home page was not showing in my workspace. Interestingly, it was always showing up in the web browser. I was however determined to fix the issue. After a good number of attempts in debugging, a solution was finally found after validating my CSS code using W3C CSS Validation Service. The issue was that the background: linear-gradient had one colour instead of two. Once both colours were present, the image in the hero-section showed up in my workspace. Problem solved! 
  
@@ -104,8 +104,8 @@ Throughout the development, key challenges included:
 
 12 Credits
 
-- All images on the website are AI-generated, contributing to the vibrant and engaging visual experience of the program. 
-- The JavaScript code used to collaps the menu when internal links are clicked was obtained from tuition materials.
+- All images on the website are AI-generated, contributing to the vibrant and engaging visual experience of the program 
+- The JavaScript code used to collaps the menu when internal links are clicked was obtained from tuition materials
 
 13 Key Updates
 
