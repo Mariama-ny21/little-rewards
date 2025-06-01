@@ -377,30 +377,30 @@ li {
 }
 #faq p {
   padding-bottom: 2rem !important;
-  font-size: 1.3rem !important;
+  font-size: 1.4rem !important;
 }
 .accordion-button {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: black;
 }
 
 .accordion-body {
-  font-size: 1.3rem !important;
+  font-size: 1.4rem !important;
   color: #0073ff;
 }
 
 #contact-us p {
   padding-top: 0;
   color: #0073ff;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .form-control {
-  font-size: 1.3rem; /* increases font-size */
+  font-size: 1.4rem; /* increases font-size */
   padding: 0.5rem; /* Adds some breathing space */
 }
 .form-label {
-  font-size: 1.3rem; /* Increases label font size */
+  font-size: 1.4rem; /* Increases label font size */
   color: #0073ff; /* Ensures label color is consistent */
 }
 #thankYouMessage {
