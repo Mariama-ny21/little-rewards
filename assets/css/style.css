@@ -16,7 +16,6 @@
 * {
   padding: 0;
   margin: 0;
-  top: 0;
   box-sizing: border-box;
 }
 
@@ -220,13 +219,6 @@ main {
   color: var(--color-darkblue);
   text-align: center;
 }
-.parents-list {
-  list-style: disc; /* Ensures bullet points only for this section */
-  padding-left: 20px; /* Adds spacing for better alignment */
-  padding-top: 2rem !important; /* Adds spacing from the top */
-  display: block !important;
-  visibility: visible !important;
-}
 
 /* Today's tasks and rewards */
 .today {
@@ -292,11 +284,6 @@ main {
 .category h2 {
   color: var(--color-darkorange);
   font-size: xx-large;
-}
-
-body a {
-  justify-content: center;
-  font-size: larger;
 }
 
 .highlights {
