@@ -133,9 +133,10 @@ Rewards Page:
 - The Example section was also restyled using a check list
 - The Thank You modal message was also updated
 
-Contact Page:
+Contact Us Page:
 - The Contact page was redesigned by using Accordion for the FAQ and changing the Feedback form to Contact Us form
 - CSS style was also updated for the Contact page
+- JavaScript form validation added to the Contact Us form
 - Footer adjusted on Contact page and other pages so that it occupies very little space
 
 Screenshots:

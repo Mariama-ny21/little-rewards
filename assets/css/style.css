@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Macondo&display=swap");
+/* Add CSS variables for colors at the root */
+:root {
+  --color-darkorange: darkorange;
+  --color-gold: gold;
+  --color-goldenrod: goldenrod;
+  --color-darkblue: darkblue;
+  --color-navy: navy;
+  --color-blue: #0073ff;
+  --color-white: #fff;
+  --color-mediumblue: #0000cd;
+  --color-black: #000;
+}
+
 /*Astericsk wildcard selector to overide default styles added by the browser */
 * {
   padding: 0;
@@ -12,7 +25,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--color-white);
   margin-left: 1rem;
   margin-right: 1rem;
   width: 100%;
@@ -21,7 +34,7 @@ body {
   padding-top: 2rem; /* Push the hearder down below the navbar */
 }
 h1 {
-  color: darkorange;
+  color: var(--color-darkorange);
   font-size: 3rem;
   font-weight: bold;
   font-family: "Macondo", cursive;
@@ -29,12 +42,12 @@ h1 {
 h2,
 h3 {
   font-family: "Macondo", cursive;
-  color: darkorange;
+  color: var(--color-darkorange);
   margin: 2px;
 }
 p {
   font-family: "Livvic", sans-serif;
-  color: #0073ff;
+  color: var(--color-blue);
   font-size: 1.2rem;
   margin: 2px;
 }
@@ -42,24 +55,24 @@ li {
   list-style-type: none; /* Remove default bullet points from lists */
   margin: 0.5rem 0; /* Add some space between list items */
   padding: 0.1rem; /* Add some padding to list items */
-  color: #0073ff !important;
+  color: var(--color-blue) !important;
   font-size: 1.2rem;
   font-family: "Livvic", sans-serif;
 }
 .sub-heading {
   font-size: larger;
   font-family: "Livvic", sans-serif;
-  color: #0073ff;
+  color: var(--color-blue);
   font-weight: bold;
 }
 
 /* Header */
 header {
-  color: darkorange;
+  color: var(--color-darkorange);
 }
 header h1,
 h2 {
-  color: darkorange;
+  color: var(--color-darkorange);
   font-size: 2rem;
   font-weight: bold;
 }
@@ -68,8 +81,8 @@ h2 {
   justify-content: center;
   align-items: center;
   margin: 0 auto; /* Ensures centering without shifting everything */
-  background-color: darkorange !important;
-  color: white;
+  background-color: var(--color-darkorange) !important;
+  color: var(--color-white);
   font-size: 1.8rem;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -79,7 +92,7 @@ h2 {
   transition: background-color 0.3s ease;
 }
 .btn:hover {
-  background-color: goldenrod !important;
+  background-color: var(--color-goldenrod) !important;
   transition: background-color 0.3s ease;
 }
 
@@ -87,20 +100,20 @@ h2 {
 .nav-link {
   font-size: larger;
   font-family: Macondo, cursive;
-  color: gold !important; /* Ensures the link color is gold */
+  color: var(--color-gold) !important; /* Ensures the link color is gold */
   transition: color 0.5s ease-in-out;
   font-weight: bold;
   text-decoration: none;
 }
 /* Maintain color when the link is clicked */
 .nav-link:visited {
-  color: gold !important; /* Ensures visited links stay gold */
+  color: var(--color-gold) !important; /* Ensures visited links stay gold */
   transition: 0.5s ease-in-out;
 }
 
 /* Hover effect */
 .nav-link:hover {
-  color: darkorange !important;
+  color: var(--color-darkorange) !important;
   font-size: xx-large;
   transition: 0.5s ease-in-out;
 }
@@ -108,23 +121,23 @@ h2 {
 /* Little Reward brand */
 .navbar-brand {
   font-weight: bolder;
-  color: darkorange;
+  color: var(--color-darkorange);
   font-size: 1.5rem;
   transition: 0.5s ease-in-out;
 }
 .navbar-brand:hover {
-  color: gold !important;
+  color: var(--color-gold) !important;
   font-size: xx-large;
   transition: 0.5s ease-in-out;
 }
 .navbar {
-  background-color: darkblue !important;
+  background-color: var(--color-darkblue) !important;
   padding: 0.5rem;
   margin-bottom: 2rem;
 }
 
 .navbar-toggler {
-  border-color: gold !important; /* Ensures the toggle button itself stands out */
+  border-color: var(--color-gold) !important; /* Ensures the toggle button itself stands out */
 }
 
 /* Main Content */
@@ -139,7 +152,7 @@ main {
 }
 .card-body {
   font-size: x-large;
-  color: darkorange;
+  color: var(--color-darkorange);
 }
 .name {
   font-size: 3rem;
@@ -182,14 +195,14 @@ main {
 
 /* Ensure hero text is always visible and readable */
 .hero-text {
-  color: darkblue; /* Dark blue for better contrast */
+  color: var(--color-darkblue); /* Dark blue for better contrast */
   font-weight: bold;
   text-align: center;
   padding: 0 1rem;
 }
 
 .hero-section h1 {
-  color: white !important;
+  color: var(--color-white) !important;
   font-size: 3.5rem;
   margin-bottom: 20px;
   text-align: center;
@@ -204,7 +217,7 @@ main {
 .lead {
   font-weight: bolder;
   font-size: 2.5rem;
-  color: darkblue;
+  color: var(--color-darkblue);
   text-align: center;
 }
 .parents-list {
@@ -223,7 +236,7 @@ main {
   padding-top: 0;
 }
 .day-tasks {
-  color: #0073ff;
+  color: var(--color-blue);
   padding: 30px;
   margin-bottom: 20px;
   font-size: 1.5rem;
@@ -232,7 +245,7 @@ main {
   justify-content: center;
 }
 .day-rewards {
-  color: #0073ff;
+  color: var(--color-blue);
   padding: 30px;
   margin-bottom: 20px;
   font-size: 1.5rem;
@@ -248,8 +261,8 @@ main {
 
 /* About Us */
 #about {
-  background-color: #0000cd !important;
-  color: white !important; /* Ensures text is visible against the dark background */
+  background-color: var(--color-mediumblue) !important;
+  color: var(--color-white) !important; /* Ensures text is visible against the dark background */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,14 +283,14 @@ main {
 
 /* Tasks */
 #task {
-  background-color: navy;
+  background-color: var(--color-navy);
 }
 .category {
   font-size: large;
-  color: darkorange;
+  color: var(--color-darkorange);
 }
 .category h2 {
-  color: darkorange;
+  color: var(--color-darkorange);
   font-size: xx-large;
 }
 
@@ -303,7 +316,7 @@ body a {
   overflow: hidden;
   width: 70%;
   margin: 0 auto;
-  background-color: navy; 
+  background-color: var(--color-navy); 
 }
 
 /* Individual reward items */
@@ -311,7 +324,7 @@ body a {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  background-color: navy; 
+  background-color: var(--color-navy); 
   margin: 0 auto; /* Centers the reward item */
 }
 
@@ -319,7 +332,7 @@ body a {
 .reward-item h3 {
   font-size: 2rem !important;
   font-family: Macondo, cursive;
-  color: darkorange;
+  color: var(--color-darkorange);
   font-weight: bold;
   justify-content: center !important;
   text-align: center !important;
@@ -334,11 +347,11 @@ body a {
 .reward-item li {
   font-size: 1.2em;
   padding: 8px 0;
-  color: white !important; /* White text color for better visibility */
+  color: var(--color-white) !important; /* White text color for better visibility */
 }
 
 li {
-  color: white !important;
+  color: var(--color-white) !important;
 }
 
 .great-job {
@@ -356,7 +369,7 @@ li {
 }
 
 .thank-you {
-  color: blue;
+  color: var(--color-blue);
   transition: 0.5s ease-in-out;
   font-size: 1.7rem;
 }
@@ -367,7 +380,7 @@ li {
   font-size: 3rem;
 }
 .modal-body {
-  color: #0073ff;
+  color: var(--color-blue);
 }
 
 /* Contact US */
@@ -381,17 +394,17 @@ li {
 }
 .accordion-button {
   font-size: 1.4rem;
-  color: black;
+  color: var(--color-black);
 }
 
 .accordion-body {
   font-size: 1.4rem !important;
-  color: #0073ff;
+  color: var(--color-blue);
 }
 
 #contact-us p {
   padding-top: 0;
-  color: #0073ff;
+  color: var(--color-blue);
   font-size: 1.4rem;
 }
 
@@ -401,11 +414,11 @@ li {
 }
 .form-label {
   font-size: 1.4rem; /* Increases label font size */
-  color: #0073ff; /* Ensures label color is consistent */
+  color: var(--color-blue); /* Ensures label color is consistent */
 }
 #thankYouMessage {
   font-size: 1.2rem;
-  color: #0073ff;
+  color: var(--color-blue);
   text-align: center;
   margin-top: 1rem;
 }
@@ -413,7 +426,7 @@ li {
 /* Footer */
 /* Reduce footer padding and margin */
 footer {
-  background-color: darkblue;
+  background-color: var(--color-darkblue);
   list-style-type: none;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -440,12 +453,12 @@ footer .social-links {
 footer p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  color: darkorange;
+  color: var(--color-darkorange);
 }
 
 
 .social-links a {
-  color: darkorange;
+  color: var(--color-darkorange);
   text-decoration: none;
   font-size: 1.2rem;
   margin-top: 1rem;
@@ -454,7 +467,7 @@ footer p {
 
 /* Hover effect */
 .social-links :hover {
-  color: gold;
+  color: var(--color-gold);
   transition: 0.5s ease-in-out;
 }
 

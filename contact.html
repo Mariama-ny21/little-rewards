@@ -206,14 +206,6 @@
       </div>
     </section>
 
-    <script>
-      document.getElementById("contactUsForm").addEventListener("submit", function (e) {
-        e.preventDefault(); // Prevent form submission
-        document.getElementById("thankYouMessage").style.display = "block"; // Show thank you message
-        this.reset(); // Reset the form
-      });
-    </script>
-
   </main>
 
   <!-- Footer / Contact -->
@@ -245,6 +237,40 @@
 
   <!-- Font Awesome-->
   <script src="https://kit.fontawesome.com/ddba35b207.js" crossorigin="anonymous"></script>
+
+<!-- JavaScript Form Validation code for the Contact Us form -->
+<script>
+  document.getElementById("contactUsForm").addEventListener("submit", function (e) {
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (name.length < 2) {
+      alert("Please enter your name (at least 2 characters).");
+      e.preventDefault();
+      return;
+    }
+    if (!emailPattern.test(email)) {
+      alert("Please enter a valid email address.");
+      e.preventDefault();
+      return;
+    }
+    if (message.length < 10) {
+      alert("Please enter a message (at least 10 characters).");
+      e.preventDefault();
+      return;
+    }
+
+    // If valid, show thank you message and reset form after 3 seconds
+    e.preventDefault();
+    document.getElementById("thankYouMessage").style.display = "block";
+    setTimeout(() => {
+      document.getElementById("thankYouMessage").style.display = "none";
+      document.getElementById("contactUsForm").reset();
+    }, 3000); // 3 seconds
+  });
+</script>
 
   <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
   <script>
